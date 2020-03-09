@@ -1,0 +1,202 @@
+[
+  {
+    "level": 1,
+    "base_attack_bonus": 1,
+    "fort_save_bonus": 2,
+    "ref_save_bonus": 0,
+    "will_save_bonus": 2,
+    "class_features": "Skill adept, solar manifestation, stellar mode, Stellar revelation (black \nhole, supernova)",
+    "Solar_Armor": "+1 AC",
+    "Solar_Weapon": "1d6"
+  },
+  {
+    "level": 2,
+    "base_attack_bonus": 2,
+    "fort_save_bonus": 3,
+    "ref_save_bonus": 0,
+    "will_save_bonus": 3,
+    "class_features": "Stellar revelation",
+    "Solar_Armor": "+1 AC",
+    "Solar_Weapon": "1d6"
+  },
+  {
+    "level": 3,
+    "base_attack_bonus": 3,
+    "fort_save_bonus": 3,
+    "ref_save_bonus": 1,
+    "will_save_bonus": 3,
+    "class_features": "Sidereal influence (2 skills), weapon specialization",
+    "Solar_Armor": "+1 AC",
+    "Solar_Weapon": "1d6"
+  },
+  {
+    "level": 4,
+    "base_attack_bonus": 4,
+    "fort_save_bonus": 4,
+    "ref_save_bonus": 1,
+    "will_save_bonus": 4,
+    "class_features": "Stellar revelation",
+    "Solar_Armor": "+1 AC",
+    "Solar_Weapon": "1d6"
+  },
+  {
+    "level": 5,
+    "base_attack_bonus": 5,
+    "fort_save_bonus": 4,
+    "ref_save_bonus": 1,
+    "will_save_bonus": 4,
+    "class_features": "—",
+    "Solar_Armor": "+1 AC, resistance 5",
+    "Solar_Weapon": "1d6"
+  },
+  {
+    "level": 6,
+    "base_attack_bonus": 6,
+    "fort_save_bonus": 5,
+    "ref_save_bonus": 2,
+    "will_save_bonus": 5,
+    "class_features": "Stellar revelation",
+    "Solar_Armor": "+1 AC, resistance 5",
+    "Solar_Weapon": "2d6"
+  },
+  {
+    "level": 7,
+    "base_attack_bonus": 7,
+    "fort_save_bonus": 5,
+    "ref_save_bonus": 2,
+    "will_save_bonus": 5,
+    "class_features": "Flashing strikes",
+    "Solar_Armor": "+1 AC, resistance 5",
+    "Solar_Weapon": "2d6"
+  },
+  {
+    "level": 8,
+    "base_attack_bonus": 8,
+    "fort_save_bonus": 6,
+    "ref_save_bonus": 2,
+    "will_save_bonus": 6,
+    "class_features": "Stellar revelation",
+    "Solar_Armor": "+1 AC, resistance 5",
+    "Solar_Weapon": "2d6"
+  },
+  {
+    "level": 9,
+    "base_attack_bonus": 9,
+    "fort_save_bonus": 6,
+    "ref_save_bonus": 3,
+    "will_save_bonus": 6,
+    "class_features": "Zenith revelations",
+    "Solar_Armor": "+1 AC, resistance 5",
+    "Solar_Weapon": "3d6"
+  },
+  {
+    "level": 10,
+    "base_attack_bonus": 10,
+    "fort_save_bonus": 7,
+    "ref_save_bonus": 3,
+    "will_save_bonus": 7,
+    "class_features": "Stellar revelation",
+    "Solar_Armor": "+2 AC, resistance 10",
+    "Solar_Weapon": "3d6"
+  },
+  {
+    "level": 11,
+    "base_attack_bonus": 11,
+    "fort_save_bonus": 7,
+    "ref_save_bonus": 3,
+    "will_save_bonus": 7,
+    "class_features": "Sidereal influence (4 skills)",
+    "Solar_Armor": "+2 AC, resistance 10",
+    "Solar_Weapon": "3d6"
+  },
+  {
+    "level": 12,
+    "base_attack_bonus": 12,
+    "fort_save_bonus": 8,
+    "ref_save_bonus": 4,
+    "will_save_bonus": 8,
+    "class_features": "Stellar revelation",
+    "Solar_Armor": "+2 AC, resistance 10",
+    "Solar_Weapon": "4d6"
+  },
+  {
+    "level": 13,
+    "base_attack_bonus": 13,
+    "fort_save_bonus": 8,
+    "ref_save_bonus": 4,
+    "will_save_bonus": 8,
+    "class_features": "Solarian’s onslaught",
+    "Solar_Armor": "+2 AC, resistance 10",
+    "Solar_Weapon": "5d6"
+  },
+  {
+    "level": 14,
+    "base_attack_bonus": 14,
+    "fort_save_bonus": 9,
+    "ref_save_bonus": 4,
+    "will_save_bonus": 9,
+    "class_features": "Stellar revelation",
+    "Solar_Armor": "+2 AC, resistance 10",
+    "Solar_Weapon": "6d6"
+  },
+  {
+    "level": 15,
+    "base_attack_bonus": 15,
+    "fort_save_bonus": 9,
+    "ref_save_bonus": 5,
+    "will_save_bonus": 9,
+    "class_features": "—",
+    "Solar_Armor": "+2 AC, resistance 15",
+    "Solar_Weapon": "7d6"
+  },
+  {
+    "level": 16,
+    "base_attack_bonus": 16,
+    "fort_save_bonus": 10,
+    "ref_save_bonus": 5,
+    "will_save_bonus": 10,
+    "class_features": "Stellar revelation",
+    "Solar_Armor": "+2 AC, resistance 15",
+    "Solar_Weapon": "8d6"
+  },
+  {
+    "level": 17,
+    "base_attack_bonus": 17,
+    "fort_save_bonus": 10,
+    "ref_save_bonus": 5,
+    "will_save_bonus": 10,
+    "class_features": "Zenith revelations",
+    "Solar_Armor": "+2 AC, resistance 15",
+    "Solar_Weapon": "9d6"
+  },
+  {
+    "level": 18,
+    "base_attack_bonus": 18,
+    "fort_save_bonus": 11,
+    "ref_save_bonus": 6,
+    "will_save_bonus": 11,
+    "class_features": "Stellar revelation",
+    "Solar_Armor": "+2 AC, resistance 15",
+    "Solar_Weapon": "10d6"
+  },
+  {
+    "level": 19,
+    "base_attack_bonus": 19,
+    "fort_save_bonus": 11,
+    "ref_save_bonus": 6,
+    "will_save_bonus": 11,
+    "class_features": "Sidereal influence (6 skills)",
+    "Solar_Armor": "+2 AC, resistance 15",
+    "Solar_Weapon": "11d6"
+  },
+  {
+    "level": 20,
+    "base_attack_bonus": 20,
+    "fort_save_bonus": 12,
+    "ref_save_bonus": 6,
+    "will_save_bonus": 12,
+    "class_features": "Stellar paragon, stellar revelation",
+    "Solar_Armor": "+2 AC, resistance 20",
+    "Solar_Weapon": "12d6"
+  }
+]

@@ -1,0 +1,162 @@
+[
+    {
+      "level": 1,
+      "base_attack_bonus": 0,
+      "fort_save_bonus": 2,
+      "ref_save_bonus": 2,
+      "will_save_bonus": 0,
+      "class_features": "Artificial intelligence, bypass +1, custom rig"
+    },
+    {
+      "level": 2,
+      "base_attack_bonus": 1,
+      "fort_save_bonus": 3,
+      "ref_save_bonus": 3,
+      "will_save_bonus": 0,
+      "class_features": "Mechanic trick"
+    },
+    {
+      "level": 3,
+      "base_attack_bonus": 2,
+      "fort_save_bonus": 3,
+      "ref_save_bonus": 3,
+      "will_save_bonus": 1,
+      "class_features": "Overload, weapon specialization"
+    },
+    {
+      "level": 4,
+      "base_attack_bonus": 3,
+      "fort_save_bonus": 4,
+      "ref_save_bonus": 4,
+      "will_save_bonus": 1,
+      "class_features": "Mechanic trick"
+    },
+    {
+      "level": 5,
+      "base_attack_bonus": 3,
+      "fort_save_bonus": 4,
+      "ref_save_bonus": 4,
+      "will_save_bonus": 1,
+      "class_features": "Bypass +2, remote hack"
+    },
+    {
+      "level": 6,
+      "base_attack_bonus": 4,
+      "fort_save_bonus": 5,
+      "ref_save_bonus": 5,
+      "will_save_bonus": 2,
+      "class_features": "Mechanic trick"
+    },
+    {
+      "level": 7,
+      "base_attack_bonus": 5,
+      "fort_save_bonus": 5,
+      "ref_save_bonus": 5,
+      "will_save_bonus": 2,
+      "class_features": "Expert rig, miracle worker 1/day"
+    },
+    {
+      "level": 8,
+      "base_attack_bonus": 6,
+      "fort_save_bonus": 6,
+      "ref_save_bonus": 6,
+      "will_save_bonus": 2,
+      "class_features": "Mechanic trick"
+    },
+    {
+      "level": 9,
+      "base_attack_bonus": 6,
+      "fort_save_bonus": 6,
+      "ref_save_bonus": 6,
+      "will_save_bonus": 3,
+      "class_features": "Bypass +3, override"
+    },
+    {
+      "level": 10,
+      "base_attack_bonus": 7,
+      "fort_save_bonus": 7,
+      "ref_save_bonus": 7,
+      "will_save_bonus": 3,
+      "class_features": "Mechanic trick"
+    },
+    {
+      "level": 11,
+      "base_attack_bonus": 8,
+      "fort_save_bonus": 7,
+      "ref_save_bonus": 7,
+      "will_save_bonus": 3,
+      "class_features": "Coordinated assault +1, miracle worker 2/day"
+    },
+    {
+      "level": 12,
+      "base_attack_bonus": 9,
+      "fort_save_bonus": 8,
+      "ref_save_bonus": 8,
+      "will_save_bonus": 4,
+      "class_features": "Mechanic trick"
+    },
+    {
+      "level": 13,
+      "base_attack_bonus": 9,
+      "fort_save_bonus": 8,
+      "ref_save_bonus": 8,
+      "will_save_bonus": 4,
+      "class_features": "Advanced rig, bypass +4"
+    },
+    {
+      "level": 14,
+      "base_attack_bonus": 10,
+      "fort_save_bonus": 9,
+      "ref_save_bonus": 9,
+      "will_save_bonus": 4,
+      "class_features": "Mechanic trick"
+    },
+    {
+      "level": 15,
+      "base_attack_bonus": 11,
+      "fort_save_bonus": 9,
+      "ref_save_bonus": 9,
+      "will_save_bonus": 5,
+      "class_features": "Miracle worker 3/day"
+    },
+    {
+      "level": 16,
+      "base_attack_bonus": 12,
+      "fort_save_bonus": 10,
+      "ref_save_bonus": 10,
+      "will_save_bonus": 5,
+      "class_features": "Mechanic trick"
+    },
+    {
+      "level": 17,
+      "base_attack_bonus": 12,
+      "fort_save_bonus": 10,
+      "ref_save_bonus": 10,
+      "will_save_bonus": 5,
+      "class_features": "Bypass +5, control net, coordinated assault +2"
+    },
+    {
+      "level": 18,
+      "base_attack_bonus": 13,
+      "fort_save_bonus": 11,
+      "ref_save_bonus": 11,
+      "will_save_bonus": 6,
+      "class_features": "Mechanic trick"
+    },
+    {
+      "level": 19,
+      "base_attack_bonus": 14,
+      "fort_save_bonus": 11,
+      "ref_save_bonus": 11,
+      "will_save_bonus": 6,
+      "class_features": "Ghost in the machine, miracle worker 4/day, superior rig"
+    },
+    {
+      "level": 20,
+      "base_attack_bonus": 15,
+      "fort_save_bonus": 12,
+      "ref_save_bonus": 12,
+      "will_save_bonus": 6,
+      "class_features": "Bypass +6, mechanic trick, tech master"
+    }
+]

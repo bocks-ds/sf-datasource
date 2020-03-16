@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "category": 1,
+    "weapon_categories_id": 1,
     "name": "Baton, advanced",
     "hands": 1,
     "level": 19,
@@ -16,7 +16,7 @@
   },
   {
     "id": 2,
-    "category": 1,
+    "weapon_categories_id": 1,
     "name": "Baton, Tactical",
     "hands": 1,
     "level": 1,
@@ -31,7 +31,7 @@
   },
   {
     "id": 3,
-    "category": 1,
+    "weapon_categories_id": 1,
     "name": "Battleglove, cestus",
     "hands": 1,
     "level": 1,
@@ -46,7 +46,7 @@
   },
   {
     "id": 4,
-    "category": 1,
+    "weapon_categories_id": 1,
     "name": "Battleglove, gravity",
     "hands": 1,
     "level": 17,
@@ -61,7 +61,7 @@
   },
   {
     "id": 5,
-    "category": 1,
+    "weapon_categories_id": 1,
     "name": "Battleglove, nova",
     "hands": 1,
     "level": 13,
@@ -76,7 +76,7 @@
   },
   {
     "id": 6,
-    "category": 1,
+    "weapon_categories_id": 1,
     "name": "Battleglove, power",
     "hands": 1,
     "level": 10,
@@ -91,7 +91,7 @@
   },
   {
     "id": 7,
-    "category": 1,
+    "weapon_categories_id": 1,
     "name": "Club",
     "hands": 1,
     "level": 0,
@@ -106,7 +106,7 @@
   },
   {
     "id": 8,
-    "category": 1,
+    "weapon_categories_id": 1,
     "name": "Dagger, molecular rift",
     "hands": 1,
     "level": 17,
@@ -121,7 +121,7 @@
   },
   {
     "id": 9,
-    "category": 1,
+    "weapon_categories_id": 1,
     "name": "Dagger, ultrathin",
     "hands": 1,
     "level": 12,
@@ -136,7 +136,7 @@
   },
   {
     "id": 10,
-    "category": 1,
+    "weapon_categories_id": 1,
     "name": "Dagger, zero-edge",
     "hands": 1,
     "level": 14,
@@ -151,7 +151,7 @@
   },
   {
     "id": 11,
-    "category": 1,
+    "weapon_categories_id": 1,
     "name": "Dueling sword, buzzblade",
     "hands": 1,
     "level": 8,
@@ -166,7 +166,7 @@
   },
   {
     "id": 12,
-    "category": 1,
+    "weapon_categories_id": 1,
     "name": "Dueling sword, molecular rift",
     "hands": 1,
     "level": 18,
@@ -181,7 +181,7 @@
   },
   {
     "id": 13,
-    "category": 1,
+    "weapon_categories_id": 1,
     "name": "Dueling sword, ripper",
     "hands": 1,
     "level": 15,
@@ -196,7 +196,7 @@
   },
   {
     "id": 14,
-    "category": 1,
+    "weapon_categories_id": 1,
     "name": "Dueling sword, Tactical",
     "hands": 1,
     "level": 2,
@@ -211,7 +211,7 @@
   },
   {
     "id": 15,
-    "category": 1,
+    "weapon_categories_id": 1,
     "name": "Dueling sword, ultrathin",
     "hands": 1,
     "level": 11,
@@ -226,7 +226,7 @@
   },
   {
     "id": 16,
-    "category": 1,
+    "weapon_categories_id": 1,
     "name": "Incapacitator",
     "hands": 1,
     "level": 9,
@@ -241,7 +241,7 @@
   },
   {
     "id": 17,
-    "category": 1,
+    "weapon_categories_id": 1,
     "name": "Knife, survival",
     "hands": 1,
     "level": 1,
@@ -256,7 +256,7 @@
   },
   {
     "id": 18,
-    "category": 1,
+    "weapon_categories_id": 1,
     "name": "Knife, Tactical",
     "hands": 1,
     "level": 7,
@@ -271,7 +271,7 @@
   },
   {
     "id": 19,
-    "category": 1,
+    "weapon_categories_id": 1,
     "name": "Peacemaker",
     "hands": 1,
     "level": 16,
@@ -286,7 +286,7 @@
   },
   {
     "id": 20,
-    "category": 1,
+    "weapon_categories_id": 1,
     "name": "Unarmed strike",
     "hands": 1,
     "level": 0,
@@ -301,7 +301,7 @@
   },
   {
     "id": 21,
-    "category": 2,
+    "weapon_categories_id": 2,
     "name": "Spear, Tactical",
     "hands": 2,
     "level": 1,
@@ -316,7 +316,7 @@
   },
   {
     "id": 22,
-    "category": 2,
+    "weapon_categories_id": 2,
     "name": "Staff, battle",
     "hands": 2,
     "level": 1,
@@ -331,7 +331,7 @@
   },
   {
     "id": 23,
-    "category": 2,
+    "weapon_categories_id": 2,
     "name": "Staff, carbon",
     "hands": 2,
     "level": 7,
@@ -346,7 +346,7 @@
   },
   {
     "id": 24,
-    "category": 2,
+    "weapon_categories_id": 2,
     "name": "Spear, sentinel",
     "hands": 2,
     "level": 8,
@@ -361,7 +361,7 @@
   },
   {
     "id": 25,
-    "category": 2,
+    "weapon_categories_id": 2,
     "name": "Spear, buzzblade",
     "hands": 2,
     "level": 11,
@@ -376,7 +376,7 @@
   },
   {
     "id": 26,
-    "category": 2,
+    "weapon_categories_id": 2,
     "name": "Spear, zero-edge",
     "hands": 2,
     "level": 15,
@@ -391,7 +391,7 @@
   },
   {
     "id": 27,
-    "category": 2,
+    "weapon_categories_id": 2,
     "name": "Staff, hardlight",
     "hands": 2,
     "level": 18,
@@ -406,7 +406,7 @@
   },
   {
     "id": 28,
-    "category": 2,
+    "weapon_categories_id": 2,
     "name": "Spear, gravity",
     "hands": 2,
     "level": 19,
@@ -421,7 +421,7 @@
   },
   {
     "id": 29,
-    "category": 3,
+    "weapon_categories_id": 3,
     "name": "Skyfire sword, Tactical",
     "hands": 1,
     "level": 7,
@@ -436,7 +436,7 @@
   },
   {
     "id": 30,
-    "category": 3,
+    "weapon_categories_id": 3,
     "name": "Skyfire sword, inferno",
     "hands": 1,
     "level": 17,
@@ -451,7 +451,7 @@
   },
   {
     "id": 31,
-    "category": 4,
+    "weapon_categories_id": 4,
     "name": "Plasma sword, tactical",
     "hands": 1,
     "level": 9,
@@ -466,7 +466,7 @@
   },
   {
     "id": 32,
-    "category": 4,
+    "weapon_categories_id": 4,
     "name": "Plasma sword, red star",
     "hands": 1,
     "level": 13,
@@ -481,7 +481,7 @@
   },
   {
     "id": 33,
-    "category": 4,
+    "weapon_categories_id": 4,
     "name": "Plasma sword, yellow star",
     "hands": 1,
     "level": 15,
@@ -496,7 +496,7 @@
   },
   {
     "id": 34,
-    "category": 4,
+    "weapon_categories_id": 4,
     "name": "Plasma sword, white star",
     "hands": 1,
     "level": 18,
@@ -511,7 +511,7 @@
   },
   {
     "id": 35,
-    "category": 4,
+    "weapon_categories_id": 4,
     "name": "Plasma sword, blue star",
     "hands": 1,
     "level": 20,
@@ -526,7 +526,7 @@
   },
   {
     "id": 36,
-    "category": 5,
+    "weapon_categories_id": 5,
     "name": "Shock truncheon, static",
     "hands": 1,
     "level": 8,
@@ -541,7 +541,7 @@
   },
   {
     "id": 37,
-    "category": 5,
+    "weapon_categories_id": 5,
     "name": "Shock truncheon, aurora",
     "hands": 1,
     "level": 11,
@@ -556,7 +556,7 @@
   },
   {
     "id": 38,
-    "category": 5,
+    "weapon_categories_id": 5,
     "name": "Shock truncheon, storm",
     "hands": 1,
     "level": 16,
@@ -571,7 +571,7 @@
   },
   {
     "id": 39,
-    "category": 5,
+    "weapon_categories_id": 5,
     "name": "Shock truncheon, tempest",
     "hands": 1,
     "level": 19,
@@ -586,7 +586,7 @@
   },
   {
     "id": 40,
-    "category": 6,
+    "weapon_categories_id": 6,
     "name": "Pulse gauntlet, thunderstrike",
     "hands": 1,
     "level": 2,
@@ -601,7 +601,7 @@
   },
   {
     "id": 41,
-    "category": 6,
+    "weapon_categories_id": 6,
     "name": "Pulse gauntlet, LFD",
     "hands": 1,
     "level": 7,
@@ -616,7 +616,7 @@
   },
   {
     "id": 42,
-    "category": 6,
+    "weapon_categories_id": 6,
     "name": "Pulse gauntlet, HFD",
     "hands": 1,
     "level": 12,
@@ -631,7 +631,7 @@
   },
   {
     "id": 43,
-    "category": 6,
+    "weapon_categories_id": 6,
     "name": "Pulse gauntlet, banshee",
     "hands": 1,
     "level": 16,
@@ -646,7 +646,7 @@
   },
   {
     "id": 44,
-    "category": 7,
+    "weapon_categories_id": 7,
     "name": "Fangblade",
     "hands": 1,
     "level": 7,
@@ -661,7 +661,7 @@
   },
   {
     "id": 45,
-    "category": 7,
+    "weapon_categories_id": 7,
     "name": "Grindblade",
     "hands": 1,
     "level": 13,
@@ -676,7 +676,7 @@
   },
   {
     "id": 46,
-    "category": 7,
+    "weapon_categories_id": 7,
     "name": "Hammer, assault",
     "hands": 1,
     "level": 1,
@@ -691,7 +691,7 @@
   },
   {
     "id": 47,
-    "category": 7,
+    "weapon_categories_id": 7,
     "name": "Hammer, comet",
     "hands": 1,
     "level": 10,
@@ -706,7 +706,7 @@
   },
   {
     "id": 48,
-    "category": 7,
+    "weapon_categories_id": 7,
     "name": "Hammer, gravity well",
     "hands": 1,
     "level": 19,
@@ -721,7 +721,7 @@
   },
   {
     "id": 49,
-    "category": 7,
+    "weapon_categories_id": 7,
     "name": "Hammer, meteoric",
     "hands": 1,
     "level": 16,
@@ -736,7 +736,7 @@
   },
   {
     "id": 50,
-    "category": 7,
+    "weapon_categories_id": 7,
     "name": "Injection glove",
     "hands": 1,
     "level": 2,
@@ -751,7 +751,7 @@
   },
   {
     "id": 51,
-    "category": 7,
+    "weapon_categories_id": 7,
     "name": "Longsword",
     "hands": 1,
     "level": 1,
@@ -766,7 +766,7 @@
   },
   {
     "id": 52,
-    "category": 7,
+    "weapon_categories_id": 7,
     "name": "Longsword, dimensional slice",
     "hands": 1,
     "level": 20,
@@ -781,7 +781,7 @@
   },
   {
     "id": 53,
-    "category": 7,
+    "weapon_categories_id": 7,
     "name": "Longsword, microserrated",
     "hands": 1,
     "level": 9,
@@ -796,7 +796,7 @@
   },
   {
     "id": 54,
-    "category": 7,
+    "weapon_categories_id": 7,
     "name": "Longsword, molecular rift",
     "hands": 1,
     "level": 17,
@@ -811,7 +811,7 @@
   },
   {
     "id": 55,
-    "category": 7,
+    "weapon_categories_id": 7,
     "name": "Longsword, sintered",
     "hands": 1,
     "level": 7,
@@ -826,7 +826,7 @@
   },
   {
     "id": 56,
-    "category": 7,
+    "weapon_categories_id": 7,
     "name": "Longsword, ultraserrated",
     "hands": 1,
     "level": 18,
@@ -841,7 +841,7 @@
   },
   {
     "id": 57,
-    "category": 7,
+    "weapon_categories_id": 7,
     "name": "Longsword, ultrathin",
     "hands": 1,
     "level": 11,
@@ -856,7 +856,7 @@
   },
   {
     "id": 58,
-    "category": 7,
+    "weapon_categories_id": 7,
     "name": "Longsword, zero-edge",
     "hands": 1,
     "level": 14,
@@ -871,7 +871,7 @@
   },
   {
     "id": 59,
-    "category": 7,
+    "weapon_categories_id": 7,
     "name": "Monowhip",
     "hands": 1,
     "level": 15,
@@ -886,7 +886,7 @@
   },
   {
     "id": 60,
-    "category": 7,
+    "weapon_categories_id": 7,
     "name": "Starknife, accelerated",
     "hands": 1,
     "level": 12,
@@ -901,7 +901,7 @@
   },
   {
     "id": 61,
-    "category": 7,
+    "weapon_categories_id": 7,
     "name": "Starknife, dimensional slice",
     "hands": 1,
     "level": 19,
@@ -916,7 +916,7 @@
   },
   {
     "id": 62,
-    "category": 7,
+    "weapon_categories_id": 7,
     "name": "Starknife, lightspeed",
     "hands": 1,
     "level": 16,
@@ -931,7 +931,7 @@
   },
   {
     "id": 63,
-    "category": 7,
+    "weapon_categories_id": 7,
     "name": "Starknife, sintered",
     "hands": 1,
     "level": 8,
@@ -946,7 +946,7 @@
   },
   {
     "id": 64,
-    "category": 7,
+    "weapon_categories_id": 7,
     "name": "Starknife, Tactical",
     "hands": 1,
     "level": 1,
@@ -961,7 +961,7 @@
   },
   {
     "id": 65,
-    "category": 7,
+    "weapon_categories_id": 7,
     "name": "Taclash, numbing",
     "hands": 1,
     "level": 11,
@@ -976,7 +976,7 @@
   },
   {
     "id": 66,
-    "category": 7,
+    "weapon_categories_id": 7,
     "name": "Taclash, standard",
     "hands": 1,
     "level": 1,
@@ -991,7 +991,7 @@
   },
   {
     "id": 67,
-    "category": 8,
+    "weapon_categories_id": 8,
     "name": "Cryopike, Tactical",
     "hands": 2,
     "level": 5,
@@ -1006,7 +1006,7 @@
   },
   {
     "id": 68,
-    "category": 8,
+    "weapon_categories_id": 8,
     "name": "Cryopike, advanced",
     "hands": 2,
     "level": 12,
@@ -1021,7 +1021,7 @@
   },
   {
     "id": 69,
-    "category": 9,
+    "weapon_categories_id": 9,
     "name": "Flame doshko, ember",
     "hands": 2,
     "level": 2,
@@ -1036,7 +1036,7 @@
   },
   {
     "id": 70,
-    "category": 9,
+    "weapon_categories_id": 9,
     "name": "Flame doshko, blaze",
     "hands": 2,
     "level": 8,
@@ -1051,7 +1051,7 @@
   },
   {
     "id": 71,
-    "category": 9,
+    "weapon_categories_id": 9,
     "name": "Flame doshko, inferno",
     "hands": 2,
     "level": 13,
@@ -1066,7 +1066,7 @@
   },
   {
     "id": 72,
-    "category": 9,
+    "weapon_categories_id": 9,
     "name": "Flame doshko, Solar flare",
     "hands": 2,
     "level": 19,
@@ -1081,7 +1081,7 @@
   },
   {
     "id": 73,
-    "category": 10,
+    "weapon_categories_id": 10,
     "name": "Plasma doshko, red star",
     "hands": 2,
     "level": 6,
@@ -1096,7 +1096,7 @@
   },
   {
     "id": 74,
-    "category": 10,
+    "weapon_categories_id": 10,
     "name": "Plasma doshko, yellow star",
     "hands": 2,
     "level": 10,
@@ -1111,7 +1111,7 @@
   },
   {
     "id": 75,
-    "category": 10,
+    "weapon_categories_id": 10,
     "name": "Plasma doshko, white star",
     "hands": 2,
     "level": 15,
@@ -1126,7 +1126,7 @@
   },
   {
     "id": 76,
-    "category": 10,
+    "weapon_categories_id": 10,
     "name": "Plasma doshko, blue star",
     "hands": 2,
     "level": 18,
@@ -1141,7 +1141,7 @@
   },
   {
     "id": 77,
-    "category": 11,
+    "weapon_categories_id": 11,
     "name": "Doshko, Tactical",
     "hands": 2,
     "level": 1,
@@ -1156,7 +1156,7 @@
   },
   {
     "id": 78,
-    "category": 11,
+    "weapon_categories_id": 11,
     "name": "Pike, Tactical",
     "hands": 2,
     "level": 2,
@@ -1171,7 +1171,7 @@
   },
   {
     "id": 79,
-    "category": 11,
+    "weapon_categories_id": 11,
     "name": "Curve blade, carbon steel",
     "hands": 2,
     "level": 4,
@@ -1186,7 +1186,7 @@
   },
   {
     "id": 80,
-    "category": 11,
+    "weapon_categories_id": 11,
     "name": "Swoop hammer, Tactical",
     "hands": 2,
     "level": 5,
@@ -1201,7 +1201,7 @@
   },
   {
     "id": 81,
-    "category": 11,
+    "weapon_categories_id": 11,
     "name": "Devastation blade, wrack",
     "hands": 2,
     "level": 7,
@@ -1216,7 +1216,7 @@
   },
   {
     "id": 82,
-    "category": 11,
+    "weapon_categories_id": 11,
     "name": "Doshko, advanced",
     "hands": 2,
     "level": 7,
@@ -1231,7 +1231,7 @@
   },
   {
     "id": 83,
-    "category": 11,
+    "weapon_categories_id": 11,
     "name": "Staff, sentinel",
     "hands": 2,
     "level": 7,
@@ -1246,7 +1246,7 @@
   },
   {
     "id": 84,
-    "category": 11,
+    "weapon_categories_id": 11,
     "name": "Pike, advanced",
     "hands": 2,
     "level": 9,
@@ -1261,7 +1261,7 @@
   },
   {
     "id": 85,
-    "category": 11,
+    "weapon_categories_id": 11,
     "name": "Swoop hammer, advanced",
     "hands": 2,
     "level": 9,
@@ -1276,7 +1276,7 @@
   },
   {
     "id": 86,
-    "category": 11,
+    "weapon_categories_id": 11,
     "name": "Curve blade, ultrathin",
     "hands": 2,
     "level": 10,
@@ -1291,7 +1291,7 @@
   },
   {
     "id": 87,
-    "category": 11,
+    "weapon_categories_id": 11,
     "name": "Doshko, ultrathin",
     "hands": 2,
     "level": 11,
@@ -1306,7 +1306,7 @@
   },
   {
     "id": 88,
-    "category": 11,
+    "weapon_categories_id": 11,
     "name": "Devastation blade, ruin",
     "hands": 2,
     "level": 13,
@@ -1321,7 +1321,7 @@
   },
   {
     "id": 89,
-    "category": 11,
+    "weapon_categories_id": 11,
     "name": "Staff, repeller",
     "hands": 2,
     "level": 13,
@@ -1336,7 +1336,7 @@
   },
   {
     "id": 90,
-    "category": 11,
+    "weapon_categories_id": 11,
     "name": "Swoop hammer, mach I",
     "hands": 2,
     "level": 13,
@@ -1351,7 +1351,7 @@
   },
   {
     "id": 91,
-    "category": 11,
+    "weapon_categories_id": 11,
     "name": "Doshko, zero-edge",
     "hands": 2,
     "level": 14,
@@ -1366,7 +1366,7 @@
   },
   {
     "id": 92,
-    "category": 11,
+    "weapon_categories_id": 11,
     "name": "Pike, elite",
     "hands": 2,
     "level": 15,
@@ -1381,7 +1381,7 @@
   },
   {
     "id": 93,
-    "category": 11,
+    "weapon_categories_id": 11,
     "name": "Curve blade, buzzblade",
     "hands": 2,
     "level": 16,
@@ -1396,7 +1396,7 @@
   },
   {
     "id": 94,
-    "category": 11,
+    "weapon_categories_id": 11,
     "name": "Doshko, molecular rift",
     "hands": 2,
     "level": 17,
@@ -1411,7 +1411,7 @@
   },
   {
     "id": 95,
-    "category": 11,
+    "weapon_categories_id": 11,
     "name": "Swoop hammer, mach II",
     "hands": 2,
     "level": 17,
@@ -1426,7 +1426,7 @@
   },
   {
     "id": 96,
-    "category": 11,
+    "weapon_categories_id": 11,
     "name": "Devastation blade, apocalypse",
     "hands": 2,
     "level": 18,
@@ -1441,7 +1441,7 @@
   },
   {
     "id": 97,
-    "category": 11,
+    "weapon_categories_id": 11,
     "name": "Doshko, dimensional blade",
     "hands": 2,
     "level": 19,
@@ -1456,7 +1456,7 @@
   },
   {
     "id": 98,
-    "category": 11,
+    "weapon_categories_id": 11,
     "name": "Curve blade, dimensional slice",
     "hands": 2,
     "level": 20,
@@ -1471,7 +1471,7 @@
   },
   {
     "id": 99,
-    "category": 11,
+    "weapon_categories_id": 11,
     "name": "Swoop hammer, mach III",
     "hands": 2,
     "level": 20,

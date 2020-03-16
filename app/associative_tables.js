@@ -20,7 +20,12 @@ module.exports = {
     },
     class_special_skills: {
         model_name: "ClassSpecialSkills",
-        supported_tables: ['class_features'],
+        supported_tables: ['class_features', 'class_special_skills'],
+    },
+    weapon_categories: {
+        model_name: "WeaponCategory",
+        supported_tables: ['melee_weapons', 'ranged_weapons'],
+        direct: true,
     },
     effect_range: {
         model_name: "EffectRange",

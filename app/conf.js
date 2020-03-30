@@ -3,7 +3,7 @@ module.exports = {
     port: 80,
     subDebugLevels: {
         definitions: 0,
-        database: 0,
+        database: 4,
         resolvers: 0,
     }
 }

@@ -1,0 +1,6 @@
+FROM test
+
+COPY app /code/app
+
+WORKDIR /code
+CMD make datasource

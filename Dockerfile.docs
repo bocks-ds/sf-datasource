@@ -1,0 +1,6 @@
+FROM bocks/docs
+
+COPY app /code/app
+
+WORKDIR /code
+CMD make datasource

@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>class_features &#8212; DataSource  documentation</title>
+    <title>Relationships &#8212; DataSource  documentation</title>
     <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
@@ -31,87 +31,101 @@
 
           <div class="body" role="main">
             
-  <div class="section" id="class-features">
-<h1>class_features<a class="headerlink" href="#class-features" title="Permalink to this headline">¶</a></h1>
-<p>This describes a one-to-many relationship.</p>
+  <div class="section" id="relationships">
+<h1>Relationships<a class="headerlink" href="#relationships" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="class-features">
+<h2>class_features<a class="headerlink" href="#class-features" title="Permalink to this headline">¶</a></h2>
+<p>This is a <strong>one-to-many</strong> relationship.</p>
 <dl class="simple">
-<dt>The ID from this table is referenced in these tables:</dt><dd><ul class="simple">
+<dt>This table is referenced by:</dt><dd><ul class="simple">
 <li><p>classes</p></li>
 </ul>
 </dd>
 </dl>
 </div>
+<hr class="docutils" />
 <div class="section" id="class-proficiencies">
-<h1>class_proficiencies<a class="headerlink" href="#class-proficiencies" title="Permalink to this headline">¶</a></h1>
-<p>This describes a many-to-many relationship.</p>
+<h2>class_proficiencies<a class="headerlink" href="#class-proficiencies" title="Permalink to this headline">¶</a></h2>
+<p>This is a <strong>many-to-many</strong> relationship.</p>
 <dl class="simple">
-<dt>The ID from this table is referenced in these tables:</dt><dd><ul class="simple">
+<dt>This table is referenced by:</dt><dd><ul class="simple">
 <li><p>classes</p></li>
 </ul>
 </dd>
 </dl>
+<p>This table joins to the table <strong>feats</strong></p>
 </div>
+<hr class="docutils" />
 <div class="section" id="class-special-skills">
-<h1>class_special_skills<a class="headerlink" href="#class-special-skills" title="Permalink to this headline">¶</a></h1>
-<p>This describes a one-to-many relationship.</p>
+<h2>class_special_skills<a class="headerlink" href="#class-special-skills" title="Permalink to this headline">¶</a></h2>
+<p>This is a <strong>one-to-many</strong> relationship.</p>
 <dl class="simple">
-<dt>The ID from this table is referenced in these tables:</dt><dd><ul class="simple">
+<dt>This table is referenced by:</dt><dd><ul class="simple">
 <li><p>class_features</p></li>
 <li><p>class_special_skills</p></li>
 </ul>
 </dd>
 </dl>
 </div>
+<hr class="docutils" />
 <div class="section" id="effect-ranges">
-<h1>effect_ranges<a class="headerlink" href="#effect-ranges" title="Permalink to this headline">¶</a></h1>
-<p>This describes a many-to-one relationship.</p>
+<h2>effect_ranges<a class="headerlink" href="#effect-ranges" title="Permalink to this headline">¶</a></h2>
+<p>This is a <strong>many-to-one</strong> relationship.</p>
 <dl class="simple">
-<dt>The ID from this table is referenced in these tables:</dt><dd><ul class="simple">
+<dt>This table is referenced by:</dt><dd><ul class="simple">
 <li><p>spells</p></li>
 </ul>
 </dd>
 </dl>
 </div>
+<hr class="docutils" />
 <div class="section" id="magic-schools">
-<h1>magic_schools<a class="headerlink" href="#magic-schools" title="Permalink to this headline">¶</a></h1>
-<p>This describes a many-to-one relationship.</p>
+<h2>magic_schools<a class="headerlink" href="#magic-schools" title="Permalink to this headline">¶</a></h2>
+<p>This is a <strong>many-to-one</strong> relationship.</p>
 <dl class="simple">
-<dt>The ID from this table is referenced in these tables:</dt><dd><ul class="simple">
+<dt>This table is referenced by:</dt><dd><ul class="simple">
 <li><p>spells</p></li>
 </ul>
 </dd>
 </dl>
 </div>
+<hr class="docutils" />
 <div class="section" id="spell-descriptors">
-<h1>spell_descriptors<a class="headerlink" href="#spell-descriptors" title="Permalink to this headline">¶</a></h1>
-<p>This describes a many-to-many relationship.</p>
+<h2>spell_descriptors<a class="headerlink" href="#spell-descriptors" title="Permalink to this headline">¶</a></h2>
+<p>This is a <strong>many-to-many</strong> relationship.</p>
 <dl class="simple">
-<dt>The ID from this table is referenced in these tables:</dt><dd><ul class="simple">
+<dt>This table is referenced by:</dt><dd><ul class="simple">
 <li><p>spells</p></li>
 </ul>
 </dd>
 </dl>
+<p>This table joins to the table <strong>descriptors</strong></p>
 </div>
+<hr class="docutils" />
 <div class="section" id="theme-modifiers">
-<h1>theme_modifiers<a class="headerlink" href="#theme-modifiers" title="Permalink to this headline">¶</a></h1>
-<p>This describes a many-to-many relationship.</p>
+<h2>theme_modifiers<a class="headerlink" href="#theme-modifiers" title="Permalink to this headline">¶</a></h2>
+<p>This is a <strong>many-to-many</strong> relationship.</p>
 <dl class="simple">
-<dt>The ID from this table is referenced in these tables:</dt><dd><ul class="simple">
+<dt>This table is referenced by:</dt><dd><ul class="simple">
 <li><p>themes</p></li>
 </ul>
 </dd>
 </dl>
+<p>This table joins to the table <strong>modifiers</strong></p>
 </div>
+<hr class="docutils" />
 <div class="section" id="weapon-categories">
-<h1>weapon_categories<a class="headerlink" href="#weapon-categories" title="Permalink to this headline">¶</a></h1>
-<p>This describes a many-to-one relationship.</p>
+<h2>weapon_categories<a class="headerlink" href="#weapon-categories" title="Permalink to this headline">¶</a></h2>
+<p>This is a <strong>many-to-one</strong> relationship.</p>
 <dl class="simple">
-<dt>The ID from this table is referenced in these tables:</dt><dd><ul class="simple">
+<dt>This table is referenced by:</dt><dd><ul class="simple">
 <li><p>melee_weapons</p></li>
 <li><p>ranged_weapons</p></li>
 </ul>
 </dd>
 </dl>
+<hr class="docutils" />
+</div>
 </div>
 
 
@@ -132,14 +146,17 @@
 
 <h3>Navigation</h3>
 <ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">class_features</a></li>
-<li class="toctree-l1"><a class="reference internal" href="#class-proficiencies">class_proficiencies</a></li>
-<li class="toctree-l1"><a class="reference internal" href="#class-special-skills">class_special_skills</a></li>
-<li class="toctree-l1"><a class="reference internal" href="#effect-ranges">effect_ranges</a></li>
-<li class="toctree-l1"><a class="reference internal" href="#magic-schools">magic_schools</a></li>
-<li class="toctree-l1"><a class="reference internal" href="#spell-descriptors">spell_descriptors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="#theme-modifiers">theme_modifiers</a></li>
-<li class="toctree-l1"><a class="reference internal" href="#weapon-categories">weapon_categories</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Relationships</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#class-features">class_features</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#class-proficiencies">class_proficiencies</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#class-special-skills">class_special_skills</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#effect-ranges">effect_ranges</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#magic-schools">magic_schools</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#spell-descriptors">spell_descriptors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#theme-modifiers">theme_modifiers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#weapon-categories">weapon_categories</a></li>
+</ul>
+</li>
 </ul>
 
 <div class="relations">

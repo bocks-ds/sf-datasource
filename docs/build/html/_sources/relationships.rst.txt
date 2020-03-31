@@ -1,73 +1,88 @@
+=============
+Relationships
+=============
 class_features
-==============
-This describes a one-to-many relationship.
+**************
 
+This is a **one-to-many** relationship.
 
+This table is referenced by: 
+	- classes
 
-The ID from this table is referenced in these tables:
-    - classes
+-----
 
 class_proficiencies
-===================
-This describes a many-to-many relationship.
+*******************
 
+This is a **many-to-many** relationship.
 
+This table is referenced by: 
+	- classes
+This table joins to the table **feats**
 
-The ID from this table is referenced in these tables:
-    - classes
+-----
 
 class_special_skills
-====================
-This describes a one-to-many relationship.
+********************
 
+This is a **one-to-many** relationship.
 
+This table is referenced by: 
+	- class_features
+	- class_special_skills
 
-The ID from this table is referenced in these tables:
-    - class_features
-    - class_special_skills
+-----
 
 effect_ranges
-=============
-This describes a many-to-one relationship.
+*************
 
+This is a **many-to-one** relationship.
 
+This table is referenced by: 
+	- spells
 
-The ID from this table is referenced in these tables:
-    - spells
+-----
 
 magic_schools
-=============
-This describes a many-to-one relationship.
+*************
 
+This is a **many-to-one** relationship.
 
+This table is referenced by: 
+	- spells
 
-The ID from this table is referenced in these tables:
-    - spells
+-----
 
 spell_descriptors
-=================
-This describes a many-to-many relationship.
+*****************
 
+This is a **many-to-many** relationship.
 
+This table is referenced by: 
+	- spells
+This table joins to the table **descriptors**
 
-The ID from this table is referenced in these tables:
-    - spells
+-----
 
 theme_modifiers
-===============
-This describes a many-to-many relationship.
+***************
 
+This is a **many-to-many** relationship.
 
+This table is referenced by: 
+	- themes
+This table joins to the table **modifiers**
 
-The ID from this table is referenced in these tables:
-    - themes
+-----
 
 weapon_categories
-=================
-This describes a many-to-one relationship.
+*****************
 
+This is a **many-to-one** relationship.
 
+This table is referenced by: 
+	- melee_weapons
+	- ranged_weapons
 
-The ID from this table is referenced in these tables:
-    - melee_weapons
-    - ranged_weapons
+-----
+

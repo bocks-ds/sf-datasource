@@ -3,4 +3,7 @@ FROM test
 COPY app /code/app
 
 WORKDIR /code
+
+RUN pip3 install sphinx_rtd_theme
+
 CMD make datasource

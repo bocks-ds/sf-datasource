@@ -18,6 +18,7 @@ This is a **many-to-many** relationship.
 
 This table is referenced by: 
 	- classes
+
 This table joins to the table **feats**
 
 -----
@@ -60,6 +61,7 @@ This is a **many-to-many** relationship.
 
 This table is referenced by: 
 	- spells
+
 This table joins to the table **descriptors**
 
 -----
@@ -71,6 +73,7 @@ This is a **many-to-many** relationship.
 
 This table is referenced by: 
 	- themes
+
 This table joins to the table **modifiers**
 
 -----

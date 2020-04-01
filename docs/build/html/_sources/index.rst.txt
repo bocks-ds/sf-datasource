@@ -1,12 +1,13 @@
-Starfinder DataSource Documentation
-===================================
+.. DataSource documentation master file, created by
+   sphinx-quickstart on Fri Mar 27 20:31:44 2020.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
 
-This documentation is intended to help you better navigate Starfinder data via the GraphQL API provided by DataSource.
-
-Table Relationships
-^^^^^^^^^^^^^^^^^^^
+Welcome to DataSource's documentation!
+======================================
 
 .. toctree::
    :maxdepth: 2
+   :caption: Contents:
    
-   relationships
+   Relationships

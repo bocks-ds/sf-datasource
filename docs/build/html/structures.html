@@ -1,0 +1,776 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Structures &mdash; DataSource  documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Relationships" href="relationships.html" />
+    <link rel="prev" title="Welcome to DataSource’s documentation!" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> DataSource
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Structures</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#abilities">abilities</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#ammunition">ammunition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#armor">armor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#armor-upgrades">armor_upgrades</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#augmentations">augmentations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#class-features">class_features</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#class-special-skills">class_special_skills</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#classes">classes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#descriptors">descriptors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#envoy-progression">envoy_progression</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#equipment">equipment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#feats">feats</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#mechanic-progression">mechanic_progression</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#melee-weapons">melee_weapons</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#modifiers">modifiers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#mystic-progression">mystic_progression</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#operative-progression">operative_progression</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#personal-upgrades">personal_upgrades</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#races">races</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#ranged-weapons">ranged_weapons</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#skills">skills</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#solarian-crystals">solarian_crystals</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#solarian-progression">solarian_progression</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#soldier-progression">soldier_progression</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#spells">spells</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#tech-items">tech_items</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#technomancer-progression">technomancer_progression</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#themes">themes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#weapon-categories">weapon_categories</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#weapon-fusions">weapon_fusions</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="relationships.html">Relationships</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">DataSource</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Structures</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/structures.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="structures">
+<h1>Structures<a class="headerlink" href="#structures" title="Permalink to this headline">¶</a></h1>
+<p>Below is a list of tables that can be queried, with descriptions of their columns, column types, and relationships.</p>
+<hr class="docutils" />
+<div class="section" id="abilities">
+<h2>abilities<a class="headerlink" href="#abilities" title="Permalink to this headline">¶</a></h2>
+<dl class="simple">
+<dt>Columns that may be queried:</dt><dd><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">id</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">name</span></code> - <em>String with a maximum length of 12</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">shorthand</span></code> - <em>String with a maximum length of 3</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code> - <em>String with a maximum length of 1324</em></p></li>
+</ul>
+</dd>
+</dl>
+</div>
+<hr class="docutils" />
+<div class="section" id="ammunition">
+<h2>ammunition<a class="headerlink" href="#ammunition" title="Permalink to this headline">¶</a></h2>
+<dl class="simple">
+<dt>Columns that may be queried:</dt><dd><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">id</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">name</span></code> - <em>String with a maximum length of 34</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">level</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">price</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">charges</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">bulk</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">special</span></code> - <em>String with a maximum length of 45</em></p></li>
+</ul>
+</dd>
+</dl>
+</div>
+<hr class="docutils" />
+<div class="section" id="armor">
+<h2>armor<a class="headerlink" href="#armor" title="Permalink to this headline">¶</a></h2>
+<dl class="simple">
+<dt>Columns that may be queried:</dt><dd><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">id</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">name</span></code> - <em>String with a maximum length of 56</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">type</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">level</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">price</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">eac_bonus</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">kac_bonus</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">max_dex_bonus</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">ac_penalty</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">speed_penalty</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">upgrade_slots</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">bulk</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code> - <em>String with a maximum length of 667</em></p></li>
+</ul>
+</dd>
+</dl>
+</div>
+<hr class="docutils" />
+<div class="section" id="armor-upgrades">
+<h2>armor_upgrades<a class="headerlink" href="#armor-upgrades" title="Permalink to this headline">¶</a></h2>
+<dl class="simple">
+<dt>Columns that may be queried:</dt><dd><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">id</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">name</span></code> - <em>String with a maximum length of 38</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">level</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">price</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">slots</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">armor_type</span></code> - <em>String with a maximum length of 18</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">bulk</span></code> - <em>String with a maximum length of 1</em></p></li>
+</ul>
+</dd>
+</dl>
+</div>
+<hr class="docutils" />
+<div class="section" id="augmentations">
+<h2>augmentations<a class="headerlink" href="#augmentations" title="Permalink to this headline">¶</a></h2>
+<p>Note: Biotech is a boolean.</p>
+<dl class="simple">
+<dt>Columns that may be queried:</dt><dd><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">id</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">name</span></code> - <em>String with a maximum length of 32</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">system</span></code> - <em>String with a maximum length of 15</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">model</span></code> - <em>String with a maximum length of 12</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">level</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">price</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">biotech</span></code> - <em>Number</em></p></li>
+</ul>
+</dd>
+</dl>
+</div>
+<hr class="docutils" />
+<div class="section" id="class-features">
+<h2>class_features<a class="headerlink" href="#class-features" title="Permalink to this headline">¶</a></h2>
+<p>All entries here belong to a class, specified by <cite>class_id</cite>. Features are parents of many ClassSpecialSkill entries, found in <cite>class_special_skills</cite>.</p>
+<dl class="simple">
+<dt>Columns that may be queried:</dt><dd><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">classes</span></code> - <em>Class; References a single element from classes</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">name</span></code> - <em>String with a maximum length of 37</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">level</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code> - <em>String with a maximum length of 4062</em></p></li>
+</ul>
+</dd>
+<dt>Relationships that may be queried:</dt><dd><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">class_special_skills</span></code> - <em>ClassSpecialSkill; Entry from</em> <code class="docutils literal notranslate"><span class="pre">class_special_skills</span></code></p></li>
+</ul>
+</dd>
+</dl>
+</div>
+<hr class="docutils" />
+<div class="section" id="class-special-skills">
+<h2>class_special_skills<a class="headerlink" href="#class-special-skills" title="Permalink to this headline">¶</a></h2>
+<p>These entries are all subordinate to a ClassFeature object, and in some cases they are additionally subordinate to another ClassSpecialSkill within this table (referenced by the column <cite>parent_id</cite>)</p>
+<dl class="simple">
+<dt>Columns that may be queried:</dt><dd><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">class_features</span></code> - <em>ClassFeature; References a single element from class_features</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">parent</span></code> - <em>References a single element from this table</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">level</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">name</span></code> - <em>String with a maximum length of 53</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code> - <em>String with a maximum length of 2615</em></p></li>
+</ul>
+</dd>
+</dl>
+</div>
+<hr class="docutils" />
+<div class="section" id="classes">
+<h2>classes<a class="headerlink" href="#classes" title="Permalink to this headline">¶</a></h2>
+<dl class="simple">
+<dt>Columns that may be queried:</dt><dd><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">id</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">name</span></code> - <em>String with a maximum length of 12</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code> - <em>String with a maximum length of 1100</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">hit_points</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">stamina_points</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">key_ability_score_text</span></code> - <em>String with a maximum length of 475</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">key_ability_score</span></code> - <em>String with a maximum length of 25</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">skills_per_level</span></code> - <em>Number</em></p></li>
+</ul>
+</dd>
+<dt>Relationships that may be queried:</dt><dd><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">class_proficiencies</span></code> - <em>Feat; Entry from</em> <code class="docutils literal notranslate"><span class="pre">feats</span></code> <em>table; Resolved via class_proficiencies</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">class_features</span></code> - <em>ClassFeature; Entry from</em> <code class="docutils literal notranslate"><span class="pre">class_features</span></code></p></li>
+</ul>
+</dd>
+</dl>
+</div>
+<hr class="docutils" />
+<div class="section" id="descriptors">
+<h2>descriptors<a class="headerlink" href="#descriptors" title="Permalink to this headline">¶</a></h2>
+<dl class="simple">
+<dt>Columns that may be queried:</dt><dd><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">id</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">name</span></code> - <em>String with a maximum length of 228</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code> - <em>String with a maximum length of 2178</em></p></li>
+</ul>
+</dd>
+</dl>
+</div>
+<hr class="docutils" />
+<div class="section" id="envoy-progression">
+<h2>envoy_progression<a class="headerlink" href="#envoy-progression" title="Permalink to this headline">¶</a></h2>
+<dl class="simple">
+<dt>Columns that may be queried:</dt><dd><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">level</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">base_attack_bonus</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">fort_save_bonus</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">ref_save_bonus</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">will_save_bonus</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">class_features</span></code> - <em>String with a maximum length of 72</em></p></li>
+</ul>
+</dd>
+</dl>
+</div>
+<hr class="docutils" />
+<div class="section" id="equipment">
+<h2>equipment<a class="headerlink" href="#equipment" title="Permalink to this headline">¶</a></h2>
+<dl class="simple">
+<dt>Columns that may be queried:</dt><dd><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">id</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">name</span></code> - <em>String with a maximum length of 20</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">type</span></code> - <em>String with a maximum length of 13</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">price</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">bulk</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">level</span></code> - <em>Number</em></p></li>
+</ul>
+</dd>
+</dl>
+</div>
+<hr class="docutils" />
+<div class="section" id="feats">
+<h2>feats<a class="headerlink" href="#feats" title="Permalink to this headline">¶</a></h2>
+<dl class="simple">
+<dt>Columns that may be queried:</dt><dd><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">id</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">modifiers</span></code> - <em>Modifier; References a single element from modifiers</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">name</span></code> - <em>String with a maximum length of 56</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">tagline</span></code> - <em>String with a maximum length of 166</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">prerequisite_text</span></code> - <em>String with a maximum length of 118</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code> - <em>String with a maximum length of 145</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">benefit</span></code> - <em>String with a maximum length of 1711</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">extra_text</span></code> - <em>String with a maximum length of 257</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">combat_feat</span></code> - <em>Number</em></p></li>
+</ul>
+</dd>
+</dl>
+</div>
+<hr class="docutils" />
+<div class="section" id="mechanic-progression">
+<h2>mechanic_progression<a class="headerlink" href="#mechanic-progression" title="Permalink to this headline">¶</a></h2>
+<dl class="simple">
+<dt>Columns that may be queried:</dt><dd><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">level</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">base_attack_bonus</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">fort_save_bonus</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">ref_save_bonus</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">will_save_bonus</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">class_features</span></code> - <em>String with a maximum length of 76</em></p></li>
+</ul>
+</dd>
+</dl>
+</div>
+<hr class="docutils" />
+<div class="section" id="melee-weapons">
+<h2>melee_weapons<a class="headerlink" href="#melee-weapons" title="Permalink to this headline">¶</a></h2>
+<dl class="simple">
+<dt>Columns that may be queried:</dt><dd><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">id</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">weapon_categories</span></code> - <em>WeaponCategory; References a single element from weapon_categories</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">name</span></code> - <em>String with a maximum length of 38</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">hands</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">level</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">price</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">damage</span></code> - <em>String with a maximum length of 19</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">critical</span></code> - <em>String with a maximum length of 19</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">bulk</span></code> - <em>String with a maximum length of 6</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">special</span></code> - <em>String with a maximum length of 87</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">powered</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">operative</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code> - <em>String with a maximum length of 1106</em></p></li>
+</ul>
+</dd>
+<dt>Relationships that may be queried:</dt><dd><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">weapon_categories</span></code> - <em>WeaponCategory; Entry from</em> <code class="docutils literal notranslate"><span class="pre">weapon_categories</span></code></p></li>
+</ul>
+</dd>
+</dl>
+</div>
+<hr class="docutils" />
+<div class="section" id="modifiers">
+<h2>modifiers<a class="headerlink" href="#modifiers" title="Permalink to this headline">¶</a></h2>
+<dl class="simple">
+<dt>Columns that may be queried:</dt><dd><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">id</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">name</span></code> - <em>String with a maximum length of 42</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">effected_stat</span></code> - <em>String with a maximum length of 19</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">modification</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code> - <em>String with a maximum length of 2870</em></p></li>
+</ul>
+</dd>
+</dl>
+</div>
+<hr class="docutils" />
+<div class="section" id="mystic-progression">
+<h2>mystic_progression<a class="headerlink" href="#mystic-progression" title="Permalink to this headline">¶</a></h2>
+<dl class="simple">
+<dt>Columns that may be queried:</dt><dd><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">level</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">base_attack_bonus</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">fort_save_bonus</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">ref_save_bonus</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">will_save_bonus</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">class_features</span></code> - <em>String with a maximum length of 79</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">spells_per_day_lvl1</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">spells_per_day_lvl2</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">spells_per_day_lvl3</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">spells_per_day_lvl4</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">spells_per_day_lvl5</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">spells_per_day_lvl6</span></code> - <em>Number</em></p></li>
+</ul>
+</dd>
+</dl>
+</div>
+<hr class="docutils" />
+<div class="section" id="operative-progression">
+<h2>operative_progression<a class="headerlink" href="#operative-progression" title="Permalink to this headline">¶</a></h2>
+<dl class="simple">
+<dt>Columns that may be queried:</dt><dd><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">level</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">base_attack_bonus</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">fort_save_bonus</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">ref_save_bonus</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">will_save_bonus</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">class_features</span></code> - <em>String with a maximum length of 127</em></p></li>
+</ul>
+</dd>
+</dl>
+</div>
+<hr class="docutils" />
+<div class="section" id="personal-upgrades">
+<h2>personal_upgrades<a class="headerlink" href="#personal-upgrades" title="Permalink to this headline">¶</a></h2>
+<dl class="simple">
+<dt>Columns that may be queried:</dt><dd><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">id</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">name</span></code> - <em>String with a maximum length of 23</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">level</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">price</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">boost</span></code> - <em>Number</em></p></li>
+</ul>
+</dd>
+</dl>
+</div>
+<hr class="docutils" />
+<div class="section" id="races">
+<h2>races<a class="headerlink" href="#races" title="Permalink to this headline">¶</a></h2>
+<dl class="simple">
+<dt>Columns that may be queried:</dt><dd><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">id</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">name</span></code> - <em>String with a maximum length of 26</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">avg_height</span></code> - <em>String with a maximum length of 25</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">avg_weight</span></code> - <em>String with a maximum length of 29</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">age_of_maturity</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">max_age</span></code> - <em>String with a maximum length of 22</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code> - <em>String with a maximum length of 5324</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">hit_points</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">type</span></code> - <em>String with a maximum length of 8</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">physical_description</span></code> - <em>String with a maximum length of 2193</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">homeworld</span></code> - <em>String with a maximum length of 1182</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">society_and_alignment</span></code> - <em>String with a maximum length of 2488</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">relations</span></code> - <em>String with a maximum length of 1543</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">adventurers</span></code> - <em>String with a maximum length of 1193</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">names</span></code> - <em>String with a maximum length of 930</em></p></li>
+</ul>
+</dd>
+</dl>
+</div>
+<hr class="docutils" />
+<div class="section" id="ranged-weapons">
+<h2>ranged_weapons<a class="headerlink" href="#ranged-weapons" title="Permalink to this headline">¶</a></h2>
+<dl class="simple">
+<dt>Columns that may be queried:</dt><dd><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">id</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">name</span></code> - <em>String with a maximum length of 41</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">weapon_categories</span></code> - <em>WeaponCategory; References a single element from weapon_categories</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">level</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">price</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">damage</span></code> - <em>String with a maximum length of 18</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">weapon_range</span></code> - <em>String with a maximum length of 9</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">critical</span></code> - <em>String with a maximum length of 19</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">capacity</span></code> - <em>String with a maximum length of 17</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">ammo_usage</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">bulk</span></code> - <em>String with a maximum length of 6</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">special</span></code> - <em>String with a maximum length of 69</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code> - <em>String with a maximum length of 727</em></p></li>
+</ul>
+</dd>
+<dt>Relationships that may be queried:</dt><dd><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">weapon_categories</span></code> - <em>WeaponCategory; Entry from</em> <code class="docutils literal notranslate"><span class="pre">weapon_categories</span></code></p></li>
+</ul>
+</dd>
+</dl>
+</div>
+<hr class="docutils" />
+<div class="section" id="skills">
+<h2>skills<a class="headerlink" href="#skills" title="Permalink to this headline">¶</a></h2>
+<dl class="simple">
+<dt>Columns that may be queried:</dt><dd><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">id</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">name</span></code> - <em>String with a maximum length of 19</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">abilities</span></code> - <em>Ability; References a single element from abilities</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code> - <em>String with a maximum length of 2531</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">untrained</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">ac_penalty</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">envoy</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">mechanic</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">mystic</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">operative</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">solarian</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">soldier</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">technomancer</span></code> - <em>Number</em></p></li>
+</ul>
+</dd>
+</dl>
+</div>
+<hr class="docutils" />
+<div class="section" id="solarian-crystals">
+<h2>solarian_crystals<a class="headerlink" href="#solarian-crystals" title="Permalink to this headline">¶</a></h2>
+<dl class="simple">
+<dt>Columns that may be queried:</dt><dd><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">id</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">name</span></code> - <em>String with a maximum length of 32</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">level</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">price</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">damage</span></code> - <em>String with a maximum length of 8</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">critical</span></code> - <em>String with a maximum length of 14</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code> - <em>String with a maximum length of 163</em></p></li>
+</ul>
+</dd>
+</dl>
+</div>
+<hr class="docutils" />
+<div class="section" id="solarian-progression">
+<h2>solarian_progression<a class="headerlink" href="#solarian-progression" title="Permalink to this headline">¶</a></h2>
+<dl class="simple">
+<dt>Columns that may be queried:</dt><dd><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">level</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">base_attack_bonus</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">fort_save_bonus</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">ref_save_bonus</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">will_save_bonus</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">class_features</span></code> - <em>String with a maximum length of 125</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Solar_Armor</span></code> - <em>String with a maximum length of 28</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Solar_Weapon</span></code> - <em>String with a maximum length of 4</em></p></li>
+</ul>
+</dd>
+</dl>
+</div>
+<hr class="docutils" />
+<div class="section" id="soldier-progression">
+<h2>soldier_progression<a class="headerlink" href="#soldier-progression" title="Permalink to this headline">¶</a></h2>
+<dl class="simple">
+<dt>Columns that may be queried:</dt><dd><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">level</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">base_attack_bonus</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">fort_save_bonus</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">ref_save_bonus</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">will_save_bonus</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">class_features</span></code> - <em>String with a maximum length of 96</em></p></li>
+</ul>
+</dd>
+</dl>
+</div>
+<hr class="docutils" />
+<div class="section" id="spells">
+<h2>spells<a class="headerlink" href="#spells" title="Permalink to this headline">¶</a></h2>
+<dl class="simple">
+<dt>Columns that may be queried:</dt><dd><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">id</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">name</span></code> - <em>String with a maximum length of 29</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">mystic_level</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">technomancer_level</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code> - <em>String with a maximum length of 571</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">long_description</span></code> - <em>String with a maximum length of 5331</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">magic_schools</span></code> - <em>MagicSchool; References a single element from magic_schools</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">casting_time</span></code> - <em>String with a maximum length of 65</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">effect_ranges</span></code> - <em>EffectRange; References a single element from effect_ranges</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">area</span></code> - <em>String with a maximum length of 53</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">targets</span></code> - <em>String with a maximum length of 227</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">duration</span></code> - <em>String with a maximum length of 230</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">saving_throw</span></code> - <em>String with a maximum length of 62</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">spell_resistance</span></code> - <em>Number</em></p></li>
+</ul>
+</dd>
+<dt>Relationships that may be queried:</dt><dd><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">spell_descriptors</span></code> - <em>Descriptor; Entry from</em> <code class="docutils literal notranslate"><span class="pre">descriptors</span></code> <em>table; Resolved via spell_descriptors</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">effect_ranges</span></code> - <em>EffectRange; Entry from</em> <code class="docutils literal notranslate"><span class="pre">effect_ranges</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">magic_schools</span></code> - <em>MagicSchool; Entry from</em> <code class="docutils literal notranslate"><span class="pre">magic_schools</span></code></p></li>
+</ul>
+</dd>
+</dl>
+</div>
+<hr class="docutils" />
+<div class="section" id="tech-items">
+<h2>tech_items<a class="headerlink" href="#tech-items" title="Permalink to this headline">¶</a></h2>
+<dl class="simple">
+<dt>Columns that may be queried:</dt><dd><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">id</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">type</span></code> - <em>String with a maximum length of 17</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">name</span></code> - <em>String with a maximum length of 39</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">level</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">price</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">hands</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">bulk</span></code> - <em>String with a maximum length of 10</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">capacity</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">item_usage</span></code> - <em>String with a maximum length of 13</em></p></li>
+</ul>
+</dd>
+</dl>
+</div>
+<hr class="docutils" />
+<div class="section" id="technomancer-progression">
+<h2>technomancer_progression<a class="headerlink" href="#technomancer-progression" title="Permalink to this headline">¶</a></h2>
+<dl class="simple">
+<dt>Columns that may be queried:</dt><dd><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">level</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">base_attack_bonus</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">fort_save_bonus</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">ref_save_bonus</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">will_save_bonus</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">class_features</span></code> - <em>String with a maximum length of 61</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">spells_per_day_lvl1</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">spells_per_day_lvl2</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">spells_per_day_lvl3</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">spells_per_day_lvl4</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">spells_per_day_lvl5</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">spells_per_day_lvl6</span></code> - <em>Number</em></p></li>
+</ul>
+</dd>
+</dl>
+</div>
+<hr class="docutils" />
+<div class="section" id="themes">
+<h2>themes<a class="headerlink" href="#themes" title="Permalink to this headline">¶</a></h2>
+<dl class="simple">
+<dt>Columns that may be queried:</dt><dd><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">id</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">name</span></code> - <em>String with a maximum length of 15</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code> - <em>String with a maximum length of 740</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">level_1</span></code> - <em>String with a maximum length of 1570</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">level_6</span></code> - <em>String with a maximum length of 981</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">level_12</span></code> - <em>String with a maximum length of 792</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">level_18</span></code> - <em>String with a maximum length of 721</em></p></li>
+</ul>
+</dd>
+<dt>Relationships that may be queried:</dt><dd><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">theme_modifiers</span></code> - <em>Modifier; Entry from</em> <code class="docutils literal notranslate"><span class="pre">modifiers</span></code> <em>table; Resolved via theme_modifiers</em></p></li>
+</ul>
+</dd>
+</dl>
+</div>
+<hr class="docutils" />
+<div class="section" id="weapon-categories">
+<h2>weapon_categories<a class="headerlink" href="#weapon-categories" title="Permalink to this headline">¶</a></h2>
+<dl class="simple">
+<dt>Columns that may be queried:</dt><dd><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">id</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">type</span></code> - <em>String with a maximum length of 19</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">hands</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">category</span></code> - <em>String with a maximum length of 13</em></p></li>
+</ul>
+</dd>
+</dl>
+</div>
+<hr class="docutils" />
+<div class="section" id="weapon-fusions">
+<h2>weapon_fusions<a class="headerlink" href="#weapon-fusions" title="Permalink to this headline">¶</a></h2>
+<dl class="simple">
+<dt>Columns that may be queried:</dt><dd><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">id</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">name</span></code> - <em>String with a maximum length of 14</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">level</span></code> - <em>Number</em></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">description</span></code> - <em>String with a maximum length of 1733</em></p></li>
+</ul>
+</dd>
+</dl>
+<hr class="docutils" />
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="relationships.html" class="btn btn-neutral float-right" title="Relationships" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral float-left" title="Welcome to DataSource’s documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Bocks
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

@@ -10,4 +10,5 @@ Welcome to DataSource's documentation!
    :maxdepth: 2
    :caption: Contents:
    
+   structures
    relationships

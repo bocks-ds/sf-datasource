@@ -1,13 +1,18 @@
 =============
 Relationships
 =============
+
+Below is a list of relational tables, with descriptions of their relationships. In most cases these tables are not intended to be queried directly, but instead they support other tables.
+
+*****
+
 class_features
 **************
 
 This is a **one-to-many** relationship.
 
 This table is referenced by: 
-	- classes
+	- ``classes``
 
 -----
 
@@ -17,9 +22,9 @@ class_proficiencies
 This is a **many-to-many** relationship.
 
 This table is referenced by: 
-	- classes
+	- ``classes``
 
-This table joins to the table **feats**
+This table joins to the table ``feats``
 
 -----
 
@@ -29,8 +34,8 @@ class_special_skills
 This is a **one-to-many** relationship.
 
 This table is referenced by: 
-	- class_features
-	- class_special_skills
+	- ``class_features
+	- class_special_skills``
 
 -----
 
@@ -40,7 +45,7 @@ effect_ranges
 This is a **many-to-one** relationship.
 
 This table is referenced by: 
-	- spells
+	- ``spells``
 
 -----
 
@@ -50,7 +55,7 @@ magic_schools
 This is a **many-to-one** relationship.
 
 This table is referenced by: 
-	- spells
+	- ``spells``
 
 -----
 
@@ -60,9 +65,9 @@ spell_descriptors
 This is a **many-to-many** relationship.
 
 This table is referenced by: 
-	- spells
+	- ``spells``
 
-This table joins to the table **descriptors**
+This table joins to the table ``descriptors``
 
 -----
 
@@ -72,9 +77,9 @@ theme_modifiers
 This is a **many-to-many** relationship.
 
 This table is referenced by: 
-	- themes
+	- ``themes``
 
-This table joins to the table **modifiers**
+This table joins to the table ``modifiers``
 
 -----
 
@@ -84,8 +89,8 @@ weapon_categories
 This is a **many-to-one** relationship.
 
 This table is referenced by: 
-	- melee_weapons
-	- ranged_weapons
+	- ``melee_weapons
+	- ranged_weapons``
 
 -----
 

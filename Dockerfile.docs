@@ -1,4 +1,4 @@
-FROM test
+FROM bocks/docs:0.2.0
 
 COPY app /code/app
 

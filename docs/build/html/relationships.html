@@ -35,7 +35,7 @@
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="prev" title="Welcome to DataSource’s documentation!" href="index.html" /> 
+    <link rel="prev" title="Structures" href="structures.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -81,6 +81,7 @@
             
               <p class="caption"><span class="caption-text">Contents:</span></p>
 <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="structures.html">Structures</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Relationships</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#class-features">class_features</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#class-proficiencies">class_proficiencies</a></li>
@@ -158,12 +159,14 @@
             
   <div class="section" id="relationships">
 <h1>Relationships<a class="headerlink" href="#relationships" title="Permalink to this headline">¶</a></h1>
+<p>Below is a list of relational tables, with descriptions of their relationships. In most cases these tables are not intended to be queried directly, but instead they support other tables.</p>
+<hr class="docutils" />
 <div class="section" id="class-features">
 <h2>class_features<a class="headerlink" href="#class-features" title="Permalink to this headline">¶</a></h2>
 <p>This is a <strong>one-to-many</strong> relationship.</p>
 <dl class="simple">
 <dt>This table is referenced by:</dt><dd><ul class="simple">
-<li><p>classes</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">classes</span></code></p></li>
 </ul>
 </dd>
 </dl>
@@ -174,11 +177,11 @@
 <p>This is a <strong>many-to-many</strong> relationship.</p>
 <dl class="simple">
 <dt>This table is referenced by:</dt><dd><ul class="simple">
-<li><p>classes</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">classes</span></code></p></li>
 </ul>
 </dd>
 </dl>
-<p>This table joins to the table <strong>feats</strong></p>
+<p>This table joins to the table <code class="docutils literal notranslate"><span class="pre">feats</span></code></p>
 </div>
 <hr class="docutils" />
 <div class="section" id="class-special-skills">
@@ -186,8 +189,8 @@
 <p>This is a <strong>one-to-many</strong> relationship.</p>
 <dl class="simple">
 <dt>This table is referenced by:</dt><dd><ul class="simple">
-<li><p>class_features</p></li>
-<li><p>class_special_skills</p></li>
+<li><p><a href="#id1"><span class="problematic" id="id2">``</span></a>class_features</p></li>
+<li><p>class_special_skills``</p></li>
 </ul>
 </dd>
 </dl>
@@ -198,7 +201,7 @@
 <p>This is a <strong>many-to-one</strong> relationship.</p>
 <dl class="simple">
 <dt>This table is referenced by:</dt><dd><ul class="simple">
-<li><p>spells</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">spells</span></code></p></li>
 </ul>
 </dd>
 </dl>
@@ -209,7 +212,7 @@
 <p>This is a <strong>many-to-one</strong> relationship.</p>
 <dl class="simple">
 <dt>This table is referenced by:</dt><dd><ul class="simple">
-<li><p>spells</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">spells</span></code></p></li>
 </ul>
 </dd>
 </dl>
@@ -220,11 +223,11 @@
 <p>This is a <strong>many-to-many</strong> relationship.</p>
 <dl class="simple">
 <dt>This table is referenced by:</dt><dd><ul class="simple">
-<li><p>spells</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">spells</span></code></p></li>
 </ul>
 </dd>
 </dl>
-<p>This table joins to the table <strong>descriptors</strong></p>
+<p>This table joins to the table <code class="docutils literal notranslate"><span class="pre">descriptors</span></code></p>
 </div>
 <hr class="docutils" />
 <div class="section" id="theme-modifiers">
@@ -232,11 +235,11 @@
 <p>This is a <strong>many-to-many</strong> relationship.</p>
 <dl class="simple">
 <dt>This table is referenced by:</dt><dd><ul class="simple">
-<li><p>themes</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">themes</span></code></p></li>
 </ul>
 </dd>
 </dl>
-<p>This table joins to the table <strong>modifiers</strong></p>
+<p>This table joins to the table <code class="docutils literal notranslate"><span class="pre">modifiers</span></code></p>
 </div>
 <hr class="docutils" />
 <div class="section" id="weapon-categories">
@@ -244,8 +247,8 @@
 <p>This is a <strong>many-to-one</strong> relationship.</p>
 <dl class="simple">
 <dt>This table is referenced by:</dt><dd><ul class="simple">
-<li><p>melee_weapons</p></li>
-<li><p>ranged_weapons</p></li>
+<li><p><a href="#id3"><span class="problematic" id="id4">``</span></a>melee_weapons</p></li>
+<li><p>ranged_weapons``</p></li>
 </ul>
 </dd>
 </dl>
@@ -262,7 +265,7 @@
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
       
-        <a href="index.html" class="btn btn-neutral float-left" title="Welcome to DataSource’s documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="structures.html" class="btn btn-neutral float-left" title="Structures" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

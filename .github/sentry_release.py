@@ -4,7 +4,6 @@ import sys
 
 REPO_NAME = sys.argv[0]
 SENTRY_API_TOKEN = sys.argv[1]
-PREVIOUS_COMMIT = sys.argv[2]
 
 log = subprocess.check_output([
     'git',
@@ -13,7 +12,6 @@ log = subprocess.check_output([
     '--no-merges',
     '--no-color',
     '--pretty=%H',
-    '%s..HEAD' % (PREVIOUS_COMMIT,),
 ])
 
 commits = log.strip().split('\n')

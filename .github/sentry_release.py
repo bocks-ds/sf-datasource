@@ -12,7 +12,7 @@ log = subprocess.check_output([
     '--no-merges',
     '--no-color',
     '--pretty=%H',
-])
+], universal_newlines=True)
 
 commits = log.strip().split('\n')
 

@@ -18,7 +18,7 @@ log = subprocess.check_output([
 commits = log.strip().split('\n')
 
 data = {
-    'commits': [{'id': c, 'repository': 'my-repo-name'} for c in commits],
+    'commits': [{'id': c, 'repository': REPO_NAME} for c in commits],
     'version': commits[0],
     'projects': ['my-project', 'my-other-project'],
 }

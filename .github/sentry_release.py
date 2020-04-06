@@ -24,7 +24,7 @@ data = {
 }
 
 res = requests.post(
-    f'https://sentry.io/api/0/organizations/{org}/releases/',
+    f'https://sentry.io/api/0/organizations/{ORG}/releases/',
     json=data,
     headers={f'Authorization': 'Bearer {SENTRY_API_TOKEN}'},
 )

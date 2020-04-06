@@ -28,4 +28,4 @@ res = requests.post(
     json=data,
     headers={f'Authorization': 'Bearer {SENTRY_API_TOKEN}'},
 )
-raise ValueError(res)
+raise ValueError(res.text)

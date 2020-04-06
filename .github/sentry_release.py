@@ -4,6 +4,7 @@ import sys
 
 REPO_NAME = sys.argv[0]
 SENTRY_API_TOKEN = sys.argv[1]
+ORG = sys.argv[2]
 
 log = subprocess.check_output([
     'git',
@@ -23,8 +24,8 @@ data = {
 }
 
 res = requests.post(
-    'https://sentry.io/api/0/organizations/my-org/releases/',
+    f'https://sentry.io/api/0/organizations/{org}/releases/',
     json=data,
-    headers={'Authorization': 'Bearer {}'.format(SENTRY_API_TOKEN)},
+    headers={f'Authorization': 'Bearer {SENTRY_API_TOKEN}'},
 )
 raise ValueError(res)

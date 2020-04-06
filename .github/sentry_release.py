@@ -20,7 +20,7 @@ commits = log.strip().split('\n')
 data = {
     'commits': [{'id': c, 'repository': REPO_NAME} for c in commits],
     'version': commits[0],
-    'projects': ['my-project', 'my-other-project'],
+    'projects': [REPO_NAME],
 }
 
 res = requests.post(

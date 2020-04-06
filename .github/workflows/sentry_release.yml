@@ -31,6 +31,6 @@ jobs:
         - name: Make sentry release
           run: |
             cd .github/ && python sentry_release.py \
-            ${{ secrets.SENTRY_TOKEN }} \
             ${{ secrets.REPO_NAME }} \
+            ${{ secrets.SENTRY_TOKEN }} \
             ${{ secrets.ORG_NAME }}

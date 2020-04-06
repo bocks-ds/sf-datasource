@@ -26,5 +26,7 @@ jobs:
             python -m pip install --upgrade pip
             python -m pip install requests
 
+        - name: Get full git commit history
+          run: git clone https://github.com/bocks-ds/sf-datasource.git
         - name: Make sentry release
           run: cd .github/ && make release TOKEN=${{ secrets.SENTRY_TOKEN }} REPO_NAME=${{ secrets.REPO_NAME }}

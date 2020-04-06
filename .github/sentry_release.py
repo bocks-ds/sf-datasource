@@ -8,17 +8,13 @@ PREVIOUS_COMMIT = sys.argv[2]
 
 log = subprocess.check_output([
     'git',
+    '--no-pager',
     'log',
-    # 'git',
-    # '--no-pager',
-    # 'log',
-    # '--no-merges',
-    # '--no-color',
-    # '--pretty=%H',
-    # '%s..HEAD' % (PREVIOUS_COMMIT,),
+    '--no-merges',
+    '--no-color',
+    '--pretty=%H',
+    '%s..HEAD' % (PREVIOUS_COMMIT,),
 ])
-
-raise TypeError(log)
 
 commits = log.strip().split('\n')
 

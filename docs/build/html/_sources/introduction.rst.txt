@@ -49,12 +49,17 @@ Roadmap
 *******
 
 - Data improvements
+
   - Currently we are investigating the completeness of our database. We are looking to learn from existing SDK developers to ensure that our product meets your expectations. If you have input or advice to give, please open up dialog with us!
+
 - Scalable SDKs
+
   - These SDKs will be designed to use a core code repository that makes logic scalable for all future *DataSource* iterations.
   - The order of development may change based on demand.
   - We will add or prioritize SDK development on a first-come-first-served-basis of requests from potential users.
-  - Future SDK languages include: *Python, Javascript/NodeJS/React, Ruby/Rails, PHP, C#/.NET, C++_
+  - Future SDK languages include: *Python, Javascript/NodeJS/React, Ruby/Rails, PHP, C#/.NET, C++*
+
 - Datasets
-  - Dataset(s) currently released or anticipating release: *Starfinder, Pathfinder_
-  - Upcoming datasets: *D&D5e, Call of Cthulu_
+
+  - Currently released or anticipating release: *Starfinder, Pathfinder*
+  - Upcoming datasets: *D&D5e, Call of Cthulu*

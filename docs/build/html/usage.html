@@ -1,0 +1,441 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Usage &mdash; SF DataSource  documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Structures" href="structures.html" />
+    <link rel="prev" title="Introduction" href="introduction.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> SF DataSource
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Usage</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#basic-query">Basic Query</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#refined-query">Refined Query</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#integer">Integer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#string">String</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id">ID</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#nested-queries">Nested Queries</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#foreign-keys-direct-relationships">Foreign Keys (direct relationships)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#supporting-tables-indirect-relationships">Supporting Tables (indirect relationships)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="structures.html">Structures</a></li>
+<li class="toctree-l1"><a class="reference internal" href="relationships.html">Relationships</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">SF DataSource</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Usage</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/usage.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="usage">
+<h1>Usage<a class="headerlink" href="#usage" title="Permalink to this headline">¶</a></h1>
+<p>Please see the SDK documentaiton for your favored language for more information about how to include <em>DataSource</em> in your codebase.</p>
+<p>If you wish to test a particular <em>DataSource</em> API directly, you may go to the base url for the application. For example, if you go to <a class="reference external" href="https://sfdatasource.com">https://sfdatasource.com</a> you will be presented with a user interface provided by ApolloServer.</p>
+<p>The UI provides several resources to you for testing.</p>
+<p>On the right hand side of the UI is a fold-out section for “schema” and “docs”. These are auto-generated by ApolloServer and are intended to show you the core capabilities of the application. Additionally, the input section on the right side of the page features autofill suggestions and syntax checking with suggestions for how to correct syntax errors. Finally, if you submit a query with an error, the response message will usually contain a suggested correction.</p>
+<hr class="docutils" />
+<div class="section" id="basic-query">
+<h2>Basic Query<a class="headerlink" href="#basic-query" title="Permalink to this headline">¶</a></h2>
+<p>When querying data, you may wish to get a complete list of all entries in a table. To do so you <em>must</em> specify both the table name you are querying, and the content you wish to retrieve. You can see more about the available content in the “Structures” section of this documentation, or in the ‘schema’ section of the UI that corresponds to the object that is returned by your query.</p>
+<p>For example, if we look at the UI ‘docs’ section for the <code class="code docutils literal notranslate"><span class="pre">armor</span></code> entry, we will see that it returns an object called <code class="code docutils literal notranslate"><span class="pre">Armor</span></code>, while the <code class="code docutils literal notranslate"><span class="pre">weapons</span></code> entry returns an object called <code class="code docutils literal notranslate"><span class="pre">Weapon</span></code>. We can then click over to the UI ‘schema’ and find the <code class="code docutils literal notranslate"><span class="pre">Armor</span></code> or <code class="code docutils literal notranslate"><span class="pre">Weapon</span></code> entry to see what data is available for that object.</p>
+<p>Example of a full-list query to fetch only the name from all entries:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+    <span class="n">armor</span> <span class="p">{</span>
+        <span class="n">name</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>All queries to the API must be contained in a top-level object, represented by an open bracket at the beginning and a close bracket at the end.</p>
+<p>Your query may include multiple queries within it. To do that, we can simply extend the previous example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+    <span class="n">armor</span> <span class="p">{</span>
+        <span class="n">name</span>
+    <span class="p">}</span>
+    <span class="n">weapons</span> <span class="p">{</span>
+        <span class="n">name</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>This will give us a list of names from all ‘armor’ rows, and then a second entry with the same from ‘weapons’.</p>
+<p>By adding another entry below ‘name’, we can get more data from the column. Available columns may be seen in the UI ‘schema’ or in the documentation here under “Structures”.</p>
+<p>For example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+    <span class="n">armor</span> <span class="p">{</span>
+        <span class="n">name</span>
+        <span class="nb">type</span>
+        <span class="n">level</span>
+        <span class="n">price</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>This will return the same list as querying <code class="code docutils literal notranslate"><span class="pre">{armor</span> <span class="pre">{name}}</span></code>, but with additional content brought back for each row.</p>
+<p>Example return (snippet):
+.. code-block:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;data&quot;</span><span class="p">:</span> <span class="p">{</span>
+  <span class="s2">&quot;armor&quot;</span><span class="p">:</span> <span class="p">[</span>
+    <span class="p">{</span>
+      <span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Estex suit I&quot;</span><span class="p">,</span>
+      <span class="s2">&quot;type&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+      <span class="s2">&quot;level&quot;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
+      <span class="s2">&quot;price&quot;</span><span class="p">:</span> <span class="mi">410</span>
+    <span class="p">},</span>
+  <span class="o">...</span>
+  <span class="p">}</span>
+</pre></div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="refined-query">
+<h2>Refined Query<a class="headerlink" href="#refined-query" title="Permalink to this headline">¶</a></h2>
+<p>You may wish to refine your query to get a specific row or select rows. To do so, we will harness the avaliable resolvers that are listed in the UI ‘docs’ section.</p>
+<p>If you look at the UI ‘docs’ section, you will see that some table queries have a long list of available resolvers. Here is a breakdown of what you might see.</p>
+<p>These resolvers are placed in parentheses following the name of the table you are querying.</p>
+<div class="section" id="integer">
+<h3>Integer<a class="headerlink" href="#integer" title="Permalink to this headline">¶</a></h3>
+<p><strong>Resolvers:</strong></p>
+<ul class="simple">
+<li><p><code class="code docutils literal notranslate"><span class="pre">*_is</span></code></p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">*_like</span></code></p></li>
+</ul>
+<p>Example column: <code class="code docutils literal notranslate"><span class="pre">price</span></code></p>
+<ul class="simple">
+<li><p><code class="code docutils literal notranslate"><span class="pre">price_min</span></code> - Get any row where the <code class="code docutils literal notranslate"><span class="pre">price</span></code> value is <em>greater</em> than or equal to this value.</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">price_max</span></code> - Get any row where the <code class="code docutils literal notranslate"><span class="pre">price</span></code> value is <em>less</em> than or equal to this value.</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">price_equals</span></code> Get any row where the <code class="code docutils literal notranslate"><span class="pre">price</span></code> value is <em>equal</em> to this value.</p></li>
+</ul>
+<p>Example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+    <span class="n">armor</span><span class="p">(</span><span class="n">price_max</span><span class="p">:</span><span class="mi">1000</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">name</span>
+        <span class="n">price</span>
+    <span class="p">}</span> <span class="c1"># returns all rows where price is 1000 or lower</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="string">
+<h3>String<a class="headerlink" href="#string" title="Permalink to this headline">¶</a></h3>
+<p><strong>Resolvers:</strong></p>
+<ul class="simple">
+<li><p><code class="code docutils literal notranslate"><span class="pre">*_is</span></code></p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">*_like</span></code></p></li>
+</ul>
+<p>Example column: <code class="code docutils literal notranslate"><span class="pre">name</span></code></p>
+<ul class="simple">
+<li><p><code class="code docutils literal notranslate"><span class="pre">name_is</span></code> - Get any row where the name <em>exactly</em> matches this value. Case sensitive.</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">name_like</span></code> - Get any row that contains this string. Not case sensitive. If spaces are present, looks for both words in any order.</p></li>
+</ul>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+    <span class="n">armor</span><span class="p">(</span><span class="n">name_is</span><span class="p">:</span><span class="s2">&quot;Second skin&quot;</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">name</span>
+    <span class="p">}</span> <span class="c1"># returns one entry, if found</span>
+    <span class="n">armor</span><span class="p">(</span><span class="n">name_like</span><span class="p">:</span><span class="s2">&quot;skin second&quot;</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">name</span>
+    <span class="p">}</span> <span class="c1"># returns same entry as above, along with any other rows that contain these two words in the name</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="id">
+<h3>ID<a class="headerlink" href="#id" title="Permalink to this headline">¶</a></h3>
+<p>Resolvers:
+- <code class="code docutils literal notranslate"><span class="pre">id</span></code>
+- <code class="code docutils literal notranslate"><span class="pre">effect_ranges_id</span></code></p>
+<p>Avaliable resolvers:
+- id - Unique value for each row on the table. We do not use UUID/GUID values, these are always incremented integers.
+- effect_ranges_id - This is an integer that matches the <code class="code docutils literal notranslate"><span class="pre">id</span></code> value on the <code class="code docutils literal notranslate"><span class="pre">effect_ranges</span></code> table.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+    <span class="n">armor</span><span class="p">(</span><span class="nb">id</span><span class="p">:</span><span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">name</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+    <span class="n">spells</span><span class="p">(</span><span class="n">effect_ranges_id</span><span class="p">:</span><span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">name</span>
+        <span class="n">effect_ranges</span>
+    <span class="p">}</span> <span class="c1"># returns a list of spells whose effect_ranges_id is 1</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="nested-queries">
+<h2>Nested Queries<a class="headerlink" href="#nested-queries" title="Permalink to this headline">¶</a></h2>
+<p>In some circumstances, a query will allow for additional query resolvers to be nested within it. This is represented in the UI docs by a column having a type that is not ‘ID’, ‘String’, or ‘Int’, but instead the type is the name of another object.</p>
+<div class="section" id="foreign-keys-direct-relationships">
+<h3>Foreign Keys (direct relationships)<a class="headerlink" href="#foreign-keys-direct-relationships" title="Permalink to this headline">¶</a></h3>
+<p>In the example above for <strong>IDs</strong>, we see that spells has a value for <code class="code docutils literal notranslate"><span class="pre">effect_ranges_id</span></code>. However, that value is not available as a column when querying <code class="code docutils literal notranslate"><span class="pre">spells</span></code>.</p>
+<p>The following will result in an error:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+<span class="n">spells</span> <span class="p">{</span>
+    <span class="n">name</span>
+    <span class="n">effect_ranges_id</span>
+    <span class="p">}</span>
+<span class="p">}</span> <span class="c1"># Message: Cannot query field &quot;effect_ranges_id&quot; on type &quot;Spell&quot;. Did you mean &quot;effect_ranges&quot;?</span>
+</pre></div>
+</div>
+<p>Thankfully the response message gives us a suggestion here. While the table has a <em>column</em> of <code class="code docutils literal notranslate"><span class="pre">effect_ranges_id</span></code>, it has a <em>resolver</em> of <code class="code docutils literal notranslate"><span class="pre">effect_ranges</span></code>. This is a bit of a gritty explanation, but what we need to know here is as follows…</p>
+<p>All foreign-keys are resolved into nested objects, rather than returning their FK ID value. If the column here has a value of <code class="docutils literal notranslate"><span class="pre">1</span></code>, our API will fetch the first entry from <code class="docutils literal notranslate"><span class="pre">effect_ranges</span></code> and nest that object here.</p>
+<p>As such, in order to see the literal value for <code class="code docutils literal notranslate"><span class="pre">effect_ranges_id</span></code> we would need to do the following. (But lets also ask for the ‘name’ while we’re at it!)</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+<span class="n">spells</span> <span class="p">{</span>
+    <span class="n">name</span>
+    <span class="n">effect_ranges</span> <span class="p">{</span>
+        <span class="nb">id</span>
+        <span class="n">name</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>The above query will return the following content (snippet):</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;data&quot;</span><span class="p">:</span> <span class="p">{</span>
+    <span class="s2">&quot;spells&quot;</span><span class="p">:</span> <span class="p">[</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Animate Dead&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;effect_ranges&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;2&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;touch&quot;</span>
+        <span class="p">}</span> <span class="c1"># Although the name is plural here (matching its table name), this will only ever get one object</span>
+    <span class="p">},</span>
+    <span class="o">...</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="supporting-tables-indirect-relationships">
+<h3>Supporting Tables (indirect relationships)<a class="headerlink" href="#supporting-tables-indirect-relationships" title="Permalink to this headline">¶</a></h3>
+<p>Unlike foreign keys, which are present in the data table, some relatioships come from information in other tables. As noted in the “Structures” and “Relationships” sections of this documentation, we can still access those relationships in our standard query.</p>
+<p>For example, <em>sfdatasource</em> <code class="code docutils literal notranslate"><span class="pre">classes</span></code> have a many-to-many relationship in their “class_features”, where classes have many feats, and some feats are referenced by many classes.</p>
+<p>In this example, the <code class="code docutils literal notranslate"><span class="pre">class_features</span></code> data table defines that relationship, and our <code class="code docutils literal notranslate"><span class="pre">Class</span></code> query can access that information.</p>
+<p>As such, the <code class="code docutils literal notranslate"><span class="pre">class_features</span></code> response will be a list of <code class="code docutils literal notranslate"><span class="pre">Feat</span></code> objects.</p>
+<p>Example query:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+    <span class="n">classes</span> <span class="p">{</span>
+    <span class="n">name</span>
+    <span class="n">class_features</span> <span class="p">{</span>
+        <span class="n">name</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>Response:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+    <span class="s2">&quot;data&quot;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="s2">&quot;classes&quot;</span><span class="p">:</span> <span class="p">[</span>
+        <span class="p">{</span>
+            <span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Envoy&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;class_features&quot;</span><span class="p">:</span> <span class="p">[</span>
+            <span class="p">{</span>
+                <span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Envoy Improvisation&quot;</span>
+            <span class="p">},</span>
+            <span class="p">{</span>
+                <span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Expertise&quot;</span>
+            <span class="p">},</span>
+            <span class="o">...</span>
+            <span class="p">]</span>
+        <span class="p">}</span>
+        <span class="o">...</span>
+        <span class="p">]</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="structures.html" class="btn btn-neutral float-right" title="Structures" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="introduction.html" class="btn btn-neutral float-left" title="Introduction" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Bocks
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

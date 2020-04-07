@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'DataSource'
+project = 'SF DataSource'
 copyright = '2020, Bocks'
 author = 'Bocks'
 

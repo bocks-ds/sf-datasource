@@ -18,9 +18,7 @@ When querying data, you may wish to get a complete list of all entries in a tabl
 
 For example, if we look at the UI 'docs' section for the :code:`armor` entry, we will see that it returns an object called :code:`Armor`, while the :code:`weapons` entry returns an object called :code:`Weapon`. We can then click over to the UI 'schema' and find the :code:`Armor` or :code:`Weapon` entry to see what data is available for that object.
 
-Example of a full-list query to fetch only the name from all entries:
-
-.. code-block::
+Example of a full-list query to fetch only the name from all entries::
 
     {
         armor {
@@ -30,9 +28,7 @@ Example of a full-list query to fetch only the name from all entries:
 
 All queries to the API must be contained in a top-level object, represented by an open bracket at the beginning and a close bracket at the end.
 
-Your query may include multiple queries within it. To do that, we can simply extend the previous example:
-
-.. code-block::
+Your query may include multiple queries within it. To do that, we can simply extend the previous example::
 
     {
         armor {
@@ -47,9 +43,7 @@ This will give us a list of names from all 'armor' rows, and then a second entry
 
 By adding another entry below 'name', we can get more data from the column. Available columns may be seen in the UI 'schema' or in the documentation here under "Structures".
 
-For example:
-
-.. code-block::
+For example::
 
     {
         armor {
@@ -62,8 +56,7 @@ For example:
 
 This will return the same list as querying :code:`{armor {name}}`, but with additional content brought back for each row.
 
-Example return (snippet):
-.. code-block::
+Example return (this is a snippet of the full entry)::
 
   "data": {
     "armor": [
@@ -101,9 +94,7 @@ Example column: :code:`price`
 - :code:`price_max` - Get any row where the :code:`price` value is *less* than or equal to this value.
 - :code:`price_equals` Get any row where the :code:`price` value is *equal* to this value.
 
-Example:
-
-.. code-block::
+Example::
 
     {
         armor(price_max:1000) {
@@ -115,7 +106,7 @@ Example:
 String
 ------
 
-**Resolvers:**
+Resolvers:
 
 - :code:`*_is`
 - :code:`*_like`
@@ -125,7 +116,7 @@ Example column: :code:`name`
 - :code:`name_is` - Get any row where the name *exactly* matches this value. Case sensitive.
 - :code:`name_like` - Get any row that contains this string. Not case sensitive. If spaces are present, looks for both words in any order.
 
-.. code-block::
+Example query::
 
     {
         armor(name_is:"Second skin") {
@@ -148,7 +139,7 @@ Avaliable resolvers:
 - id - Unique value for each row on the table. We do not use UUID/GUID values, these are always incremented integers.
 - effect_ranges_id - This is an integer that matches the :code:`id` value on the :code:`effect_ranges` table.
 
-.. code-block::
+Example query::
 
     {
         armor(id:1) {
@@ -156,7 +147,7 @@ Avaliable resolvers:
         } 
     }
 
-.. code-block::
+Another example query::
 
     {
         spells(effect_ranges_id:1) {
@@ -178,9 +169,7 @@ Foreign Keys (direct relationships)
 
 In the example above for **IDs**, we see that spells has a value for :code:`effect_ranges_id`. However, that value is not available as a column when querying :code:`spells`.
 
-The following will result in an error:
-
-.. code-block::
+The following will result in an error::
 
     {
     spells {
@@ -193,23 +182,18 @@ Thankfully the response message gives us a suggestion here. While the table has 
 
 All foreign-keys are resolved into nested objects, rather than returning their FK ID value. If the column here has a value of ``1``, our API will fetch the first entry from ``effect_ranges`` and nest that object here.
 
-As such, in order to see the literal value for :code:`effect_ranges_id` we would need to do the following. (But lets also ask for the 'name' while we're at it!)
-
-.. code-block::
+As such, in order to see the literal value for :code:`effect_ranges_id`, we would need to do the following::
 
     {
     spells {
         name
         effect_ranges {
             id
-            name
             }
         }
     }
 
-The above query will return the following content (snippet):
-
-.. code-block::
+The above query will return the following content (this is a snippet of the full response)::
 
     "data": {
         "spells": [
@@ -217,11 +201,13 @@ The above query will return the following content (snippet):
             "name": "Animate Dead",
             "effect_ranges": {
                 "id": "2",
-                "name": "touch"
             } # Although the name is plural here (matching its table name), this will only ever get one object
         },
         ...
     }
+
+In a real situation, that ID probably isn't very useful to us, because we could easily jump straight into getting real content. Looking at the available columns for `effect_ranges`, it would probably have been more practical for us to get 'name' and 'description' instead!
+
 
 Supporting Tables (indirect relationships)
 ------------------------------------------
@@ -234,9 +220,7 @@ In this example, the :code:`class_features` data table defines that relationship
 
 As such, the :code:`class_features` response will be a list of :code:`Feat` objects.
 
-Example query:
-
-.. code-block::
+Example query::
 
     {
         classes {
@@ -247,9 +231,7 @@ Example query:
         }
     }
 
-Response:
-
-.. code-block::
+Response::
 
     {
         "data": {

@@ -209,8 +209,7 @@
 </pre></div>
 </div>
 <p>This will return the same list as querying <code class="code docutils literal notranslate"><span class="pre">{armor</span> <span class="pre">{name}}</span></code>, but with additional content brought back for each row.</p>
-<p>Example return (snippet):
-.. code-block:</p>
+<p>Example return (this is a snippet of the full entry):</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;data&quot;</span><span class="p">:</span> <span class="p">{</span>
   <span class="s2">&quot;armor&quot;</span><span class="p">:</span> <span class="p">[</span>
     <span class="p">{</span>
@@ -255,7 +254,7 @@
 </div>
 <div class="section" id="string">
 <h3>String<a class="headerlink" href="#string" title="Permalink to this headline">¶</a></h3>
-<p><strong>Resolvers:</strong></p>
+<p>Resolvers:</p>
 <ul class="simple">
 <li><p><code class="code docutils literal notranslate"><span class="pre">*_is</span></code></p></li>
 <li><p><code class="code docutils literal notranslate"><span class="pre">*_like</span></code></p></li>
@@ -265,6 +264,7 @@
 <li><p><code class="code docutils literal notranslate"><span class="pre">name_is</span></code> - Get any row where the name <em>exactly</em> matches this value. Case sensitive.</p></li>
 <li><p><code class="code docutils literal notranslate"><span class="pre">name_like</span></code> - Get any row that contains this string. Not case sensitive. If spaces are present, looks for both words in any order.</p></li>
 </ul>
+<p>Example query:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
     <span class="n">armor</span><span class="p">(</span><span class="n">name_is</span><span class="p">:</span><span class="s2">&quot;Second skin&quot;</span><span class="p">)</span> <span class="p">{</span>
         <span class="n">name</span>
@@ -284,6 +284,7 @@
 <p>Avaliable resolvers:
 - id - Unique value for each row on the table. We do not use UUID/GUID values, these are always incremented integers.
 - effect_ranges_id - This is an integer that matches the <code class="code docutils literal notranslate"><span class="pre">id</span></code> value on the <code class="code docutils literal notranslate"><span class="pre">effect_ranges</span></code> table.</p>
+<p>Example query:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
     <span class="n">armor</span><span class="p">(</span><span class="nb">id</span><span class="p">:</span><span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
         <span class="n">name</span>
@@ -291,6 +292,7 @@
 <span class="p">}</span>
 </pre></div>
 </div>
+<p>Another example query:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
     <span class="n">spells</span><span class="p">(</span><span class="n">effect_ranges_id</span><span class="p">:</span><span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
         <span class="n">name</span>
@@ -319,32 +321,31 @@
 </div>
 <p>Thankfully the response message gives us a suggestion here. While the table has a <em>column</em> of <code class="code docutils literal notranslate"><span class="pre">effect_ranges_id</span></code>, it has a <em>resolver</em> of <code class="code docutils literal notranslate"><span class="pre">effect_ranges</span></code>. This is a bit of a gritty explanation, but what we need to know here is as follows…</p>
 <p>All foreign-keys are resolved into nested objects, rather than returning their FK ID value. If the column here has a value of <code class="docutils literal notranslate"><span class="pre">1</span></code>, our API will fetch the first entry from <code class="docutils literal notranslate"><span class="pre">effect_ranges</span></code> and nest that object here.</p>
-<p>As such, in order to see the literal value for <code class="code docutils literal notranslate"><span class="pre">effect_ranges_id</span></code> we would need to do the following. (But lets also ask for the ‘name’ while we’re at it!)</p>
+<p>As such, in order to see the literal value for <code class="code docutils literal notranslate"><span class="pre">effect_ranges_id</span></code>, we would need to do the following:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
 <span class="n">spells</span> <span class="p">{</span>
     <span class="n">name</span>
     <span class="n">effect_ranges</span> <span class="p">{</span>
         <span class="nb">id</span>
-        <span class="n">name</span>
         <span class="p">}</span>
     <span class="p">}</span>
 <span class="p">}</span>
 </pre></div>
 </div>
-<p>The above query will return the following content (snippet):</p>
+<p>The above query will return the following content (this is a snippet of the full response):</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;data&quot;</span><span class="p">:</span> <span class="p">{</span>
     <span class="s2">&quot;spells&quot;</span><span class="p">:</span> <span class="p">[</span>
     <span class="p">{</span>
         <span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Animate Dead&quot;</span><span class="p">,</span>
         <span class="s2">&quot;effect_ranges&quot;</span><span class="p">:</span> <span class="p">{</span>
             <span class="s2">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;2&quot;</span><span class="p">,</span>
-            <span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;touch&quot;</span>
         <span class="p">}</span> <span class="c1"># Although the name is plural here (matching its table name), this will only ever get one object</span>
     <span class="p">},</span>
     <span class="o">...</span>
 <span class="p">}</span>
 </pre></div>
 </div>
+<p>In a real situation, that ID probably isn’t very useful to us, because we could easily jump straight into getting real content. Looking at the available columns for <cite>effect_ranges</cite>, it would probably have been more practical for us to get ‘name’ and ‘description’ instead!</p>
 </div>
 <div class="section" id="supporting-tables-indirect-relationships">
 <h3>Supporting Tables (indirect relationships)<a class="headerlink" href="#supporting-tables-indirect-relationships" title="Permalink to this headline">¶</a></h3>

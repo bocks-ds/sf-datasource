@@ -3,8 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Starfinder DataSource's documentation!
-=================================================
+Welcome to DataSource's documentation!
+======================================
 
 .. toctree::
    :maxdepth: 2
@@ -14,3 +14,11 @@ Welcome to Starfinder DataSource's documentation!
    usage
    structures
    relationships
+   sdks
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`

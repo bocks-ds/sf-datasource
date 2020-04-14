@@ -36,7 +36,7 @@
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Usage" href="usage.html" />
-    <link rel="prev" title="Welcome to Starfinder DataSource’s documentation!" href="index.html" /> 
+    <link rel="prev" title="Welcome to DataSource’s documentation!" href="index.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -85,7 +85,6 @@
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Introduction</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#overview">Overview</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#design-decisions">Design Decisions</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#regarding-rest-vs-graphql">Regarding REST vs GraphQL</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#regarding-sdks">Regarding SDKs</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#regarding-scalability">Regarding Scalability</a></li>
 </ul>
@@ -96,6 +95,7 @@
 <li class="toctree-l1"><a class="reference internal" href="usage.html">Usage</a></li>
 <li class="toctree-l1"><a class="reference internal" href="structures.html">Structures</a></li>
 <li class="toctree-l1"><a class="reference internal" href="relationships.html">Relationships</a></li>
+<li class="toctree-l1"><a class="reference internal" href="sdks.html">Software Development Kits</a></li>
 </ul>
 
             
@@ -177,10 +177,6 @@
 <hr class="docutils" />
 <div class="section" id="design-decisions">
 <h2>Design Decisions<a class="headerlink" href="#design-decisions" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="regarding-rest-vs-graphql">
-<h3>Regarding REST vs GraphQL<a class="headerlink" href="#regarding-rest-vs-graphql" title="Permalink to this headline">¶</a></h3>
-<p><em>DataSource</em> is a GraphQL API. This decision was made based on the simplicity and scalability of that technology compared to a traditional REST API. On top of the API development and maintenance being lightened, this also enables us to build SDKs for users more quickly and efficiently. The average <em>DataSource</em> consumer will access our data via an SDK, which will make the REST vs GraphQL discussion moot at that point because your API calls will be wrapped by a nice layer of simplification. The <em>DataSource</em> application UI is built using ApolloServer.</p>
-</div>
 <div class="section" id="regarding-sdks">
 <h3>Regarding SDKs<a class="headerlink" href="#regarding-sdks" title="Permalink to this headline">¶</a></h3>
 <p>Our intention is for <em>DataSource</em> to be accessed programatically. Our roadmap projects releases of SDKs for most major languages in the near future, which will make building your website with <em>DataSource</em> a breeze. If we don’t have an SDK for your favorite language on our roadmap, please let us know immediately so that we may prioritize our development accordingly.</p>
@@ -201,27 +197,7 @@ Users should be encouraged by this for several reasons:</p>
 <hr class="docutils" />
 <div class="section" id="roadmap">
 <h2>Roadmap<a class="headerlink" href="#roadmap" title="Permalink to this headline">¶</a></h2>
-<ul class="simple">
-<li><p>Data improvements</p>
-<ul>
-<li><p>Currently we are investigating the completeness of our database. We are looking to learn from existing SDK developers to ensure that our product meets your expectations. If you have input or advice to give, please open up dialog with us!</p></li>
-</ul>
-</li>
-<li><p>Scalable SDKs</p>
-<ul>
-<li><p>These SDKs will be designed to use a core code repository that makes logic scalable for all future <em>DataSource</em> iterations.</p></li>
-<li><p>The order of development may change based on demand.</p></li>
-<li><p>We will add or prioritize SDK development on a first-come-first-served-basis of requests from potential users.</p></li>
-<li><p>Future SDK languages include: <em>Python, Javascript/NodeJS/React, Ruby/Rails, PHP, C#/.NET, C++</em></p></li>
-</ul>
-</li>
-<li><p>Datasets</p>
-<ul>
-<li><p>Currently released or anticipating release: <em>Starfinder, Pathfinder</em></p></li>
-<li><p>Upcoming datasets: <em>D&amp;D5e, Call of Cthulu</em></p></li>
-</ul>
-</li>
-</ul>
+<p>To view feature and changes that are pending release, you can visit our <a class="reference external" href="https://github.com/bocks-ds/sf-datasource/projects">Github Projects page</a>.</p>
 </div>
 </div>
 
@@ -236,7 +212,7 @@ Users should be encouraged by this for several reasons:</p>
         <a href="usage.html" class="btn btn-neutral float-right" title="Usage" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="index.html" class="btn btn-neutral float-left" title="Welcome to Starfinder DataSource’s documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="index.html" class="btn btn-neutral float-left" title="Welcome to DataSource’s documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

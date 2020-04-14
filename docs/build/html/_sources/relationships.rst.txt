@@ -24,7 +24,8 @@ This is a **many-to-many** relationship.
 This table is referenced by: 
 	- ``classes``
 
-This table joins to the table ``feats``
+This table joins to: 
+	-  ``feats``
 
 -----
 
@@ -34,8 +35,8 @@ class_special_skills
 This is a **one-to-many** relationship.
 
 This table is referenced by: 
-	- ``class_features
-	- class_special_skills``
+	- ``class_features``
+	- ``class_special_skills``
 
 -----
 
@@ -67,7 +68,8 @@ This is a **many-to-many** relationship.
 This table is referenced by: 
 	- ``spells``
 
-This table joins to the table ``descriptors``
+This table joins to: 
+	-  ``descriptors``
 
 -----
 
@@ -79,7 +81,8 @@ This is a **many-to-many** relationship.
 This table is referenced by: 
 	- ``themes``
 
-This table joins to the table ``modifiers``
+This table joins to: 
+	-  ``modifiers``
 
 -----
 
@@ -89,8 +92,8 @@ weapon_categories
 This is a **many-to-one** relationship.
 
 This table is referenced by: 
-	- ``melee_weapons
-	- ranged_weapons``
+	- ``melee_weapons``
+	- ``ranged_weapons``
 
 -----
 

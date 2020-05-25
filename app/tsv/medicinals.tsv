@@ -1,0 +1,45 @@
+name	level	price	dose	source	source_page
+Analgesic, tier 1	1	150	1	CRB	232
+Analgesic, tier 2	5	3000	1	CRB	232
+Analgesic, tier 3	10	15000	1	CRB	232
+Analgesic, tier 4	15	23500	1	CRB	232
+Antibiotic, tier 1	1	150	1	COM	127
+Antibiotic, tier 2	5	3000	1	COM	127
+Antibiotic, tier 3	10	15000	1	COM	127
+Antibiotic, tier 4	15	23500	1	COM	127
+Antiemetic, tier 1	1	150	1	ARM	132
+Antiemetic, tier 2	5	3000	1	ARM	132
+Antiemetic, tier 3	10	15000	1	ARM	132
+Antiemetic, tier 4	15	23500	1	ARM	132
+Antitoxin, tier 1	1	150	1	CRB	232
+Antitoxin, tier 2	5	3000	1	CRB	232
+Antitoxin, tier 3	10	15000	1	CRB	232
+Antitoxin, tier 4	15	23500	1	CRB	232
+Coagulant, tier 1	1	150	1	ARM	132
+Coagulant, tier 2	5	3000	1	ARM	132
+Coagulant, tier 3	10	15000	1	ARM	132
+Coagulant, tier 4	15	23500	1	ARM	132
+Counteractant, tier 1	1	150	1	COM	127
+Counteractant, tier 2	5	3000	1	COM	127
+Counteractant, tier 3	10	15000	1	COM	127
+Counteractant, tier 4	15	23500	1	COM	127
+Excitant, tier 1	1	150	1	ARM	133
+Excitant, tier 2	5	3000	1	ARM	133
+Excitant, tier 3	10	15000	1	ARM	133
+Excitant, tier 4	15	23500	1	ARM	133
+Sal Volatile, tier 1	1	150	1	COM	127
+Sal Volatile, tier 2	5	3000	1	COM	127
+Sal Volatile, tier 3	10	15000	1	COM	127
+Sal Volatile, tier 4	15	23500	1	COM	127
+Sedative, tier 1	1	150	1	CRB	232
+Sedative, tier 2	5	3000	1	CRB	232
+Sedative, tier 3	10	15000	1	CRB	232
+Sedative, tier 4	15	23500	1	CRB	232
+Stimulant, tier 1	1	150	1	ARM	133
+Stimulant, tier 2	5	3000	1	ARM	133
+Stimulant, tier 3	10	15000	1	ARM	133
+Stimulant, tier 4	15	23500	1	ARM	133
+Vaccine, tier 1	1	150	1	COM	127
+Vaccine, tier 2	5	3000	1	COM	127
+Vaccine, tier 3	10	15000	1	COM	127
+Vaccine, tier 4	15	23500	1	COM	127

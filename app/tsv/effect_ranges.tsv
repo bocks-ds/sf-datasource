@@ -1,0 +1,23 @@
+id	name	short_description	description	range_value
+1	personal	null	An effect with a range of personal is limited to and affects your person only.	0
+2	touch	null	If an effect has a range of touch, you must touch a creature or object to affect your target, which requires you to hit with a melee attack roll (against EAC unless the effect says otherwise) if you are touching an unwilling target. A touch effect that deals damage can score a critical hit just as a weapon can. Some touch effects allow you to touch multiple targets. You can touch up to six willing or unconscious targets as part of the activation of such an effect, but all targets of the effect must be touched in the same round that you finish activating the effect. If the effect allows you to touch targets over multiple rounds, touching up to six creatures is a full action.	5
+3	close	25 ft. + 5 ft./2 levels	An effect with a range of close reaches as far as 25 feet + 5 feet for every 2 levels you have.	31
+4	medium	100 ft. + 10 ft./level	An effect with a range of medium reaches as far as 100 feet + 10 feet per level you have.	121
+5	long	400 ft. + 40 ft./level	An effect with a range of long reaches as far as 400 feet + 40 feet per level you have.	441
+6	planetary	null	An effect with a range of planetary can reach anywhere on the same planet. This also covers targets in orbit around the planet, such as moons and artificial satellites.	90000
+7	system-wide	null	An effect with a range of system-wide can reach anywhere in the same solar system.	900000
+8	plane	null	An effect with a range of plane can reach anywhere in the same plane of existence.	9000000
+9	unlimited	null	Some effects, mostly high-level spells, can reach anywhere, even onto other planes. Effects with ranges of unlimited are often very powerful, and they can be difficult or impossible to access until you reach a high level.	90000000
+10	see text	null	null	null
+11	0 ft.	null	null	0
+12	5 ft.	null	null	5
+13	10 ft.	null	null	10
+14	15 ft.	null	null	15
+15	20 ft.	null	null	20
+16	30 ft.	null	null	30
+17	60 ft.	null	null	60
+18	100 ft.	null	null	100
+19	120 ft.	null	null	120
+20	2,000 miles	null	null	2000
+21	1 mile	null	null	5280
+22	1 mile/level	null	null	10560

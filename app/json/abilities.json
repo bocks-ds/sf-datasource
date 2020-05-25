@@ -3,8 +3,7 @@
     "id": 1,
     "name": "Strength",
     "shorthand": "STR",
-    "description": "Strength measures muscle and physical power. A character with a Strength score of 0 is unconscious. Your character’s Strength modifier is factored into the following:\n- Melee attack rolls and attack rolls made with thrown weapons (such as grenades).\n- Damage rolls when using melee weapons or thrown weapons (but not grenades).\n- Athletics skill checks.\n- Strength checks (for breaking down doors and the like).\n- How much gear your character can carry (see page 167).",
-    "reference_id": null
+    "description": "Strength measures muscle and physical power. A character with a Strength score of 0 is unconscious. Your character’s Strength modifier is factored into the following:\n- Melee attack rolls and attack rolls made with thrown weapons (such as grenades).\n- Damage rolls when using melee weapons or thrown weapons (but not grenades).\n- Athletics skill checks.\n- Strength checks (for breaking down doors and the like).\n- How much gear your character can carry (see page 167)."
   },
   {
     "id": 2,

@@ -1,0 +1,46 @@
+id	name	ability	skill	description	sfs	source	source_page
+1	Ace Pilot	DEX	Piloting	<p>Skillful operator of starships and other vehicles who is obsessed with all related knowledge and lore.</p>	Yes	CRB	29
+2	Athlete	STR, DEX, or CON	Acrobatics or Athletics	<p>You are a professional competitor and an expert in physical finesse or  brute strength, providing you advantages in battle.</p>	No	COM	9
+3	Battle Medic	INT	Medicine	<p>A medic without peer, you work to save lives in the worst imaginable  conditions, all while keeping your cool.</p>	No	A!01	42
+4	Biotechnician	INT	Medicine	<p>Evolution can go only so far, by taking flesh crafting in your own hands,  you devise new ways to enhance your natural mind and body.</p>	Yes	PWD	127
+5	Bounty Hunter	CON	Survival	<p>Unstoppable tracker who knows how to stay hot on the trail of those who flee.</p>	Yes	CRB	30
+6	Bureaucrat	INT, WIS, or CHA	Culture, Life Science, Mysticism, Physical Science, or a Profession	<p>You bring your no-nonsense ability to cut through red tape to bear in surprising ways.</p>	No	NSP	137
+7	Career Trooper	CON	Piloting	<p>A veteran of countless battles, your tactics are unmatched on the  battlefield and a boon to your allies.</p>	No	A!01	43
+8	Colonist	CON	Survival	<p>Whether a newcomer to the frontier or an grizzled traveler, you always seek new worlds to settle, and wilds to tame through tenacity and wit.</p>	Yes	AT01	45
+9	Corporate Agent	CHA	Diplomacy	<p>Corporations are the lifeblood of the modern economy, and employ agents such as yourself to ensure their plans go according to schedule.</p>	Yes	PWD	47
+10	Cult Hunter	WIS	Sense Motive	<p>Your life’s work is to ferret out cults and free those who have fallen into their clutches.</p>	No	DF04	45
+11	Cultist	CON	Disguise	<p>Hidden in the shadows, some religious forces work to achieve hidden agendas by employing faceless devotees in nearly all levels of society.</p>	Yes	PWD	147
+12	Cyberborn	INT	Computers	<p>For those interested in true advancement, transcending ones physical and mental limitations through technology is their key.</p>	Yes	PWD	67
+13	Death-Touched	CON	Perception	<p>Through fate or luck, you've escaped death, but its lingering grasp still maintains a hold on you to this day.</p>	Yes	PWD	97
+14	Diplomat	CHA	Diplomacy	<p>Quick with words and familiar with negotiations in tense situations, you thrive on defusing situations where violence is only moments away.</p>	No	A!04	45
+15	Dragonblood	CHA	Culture	<p>Through inherited power or sheer adoration, the magic of dragons flows through your veins and grants you a measure of their mighty power.</p>	Yes	PWD	107
+16	Dream Prophet	WIS	Mysticism	<p>You hear the songs of the Dreamer, and sometimes they grant you insight into the unknown.</p>	Yes	PWD	117
+17	Esper	CHA	Mysticism	<p>You have trained with an elite psionic squad or a specialist unit dealing with psychic threats, or served as the psionics officer for a military task</p>	No	A!05	53
+18	Giantblood	STR	Culture	<p>You can trace your ancestry to giants, allowing you to accomplish feats of great strength.</p>	No	NSP	138
+19	Gladiator	CON	Intimidate	<p>The roars of the crowd and blood dripping from your blade guides your life of violence for coin and prestige.</p>	Yes	PWD	57
+20	Grifter	INT	Profession	<p>Swindling, tricking, and ingratiating yourself to others using your force of personality are your specialties.</p>	No	COM	10
+21	Guard	STR, or DEX	Perception	<p>You are a vigilant protector of your clients and friends, and you’ll let no harm come to them.</p>	No	COM	11
+22	Icon	CHA	Culture	<p>Popular and respected celebrity who can leverage the public's adoration for specific needs.</p>	Yes	CRB	31
+23	Law Officer	WIS	Sense Motive	<p>An enforcer of law and a protector of the public, you often put yourself at risk to ensure others’ safety.</p>	No	COM	12
+24	Mercenary	STR	Athletics	<p>Well-trained soldier of fortune who can work equally well as a combat grunt or a squad leader.</p>	Yes	CRB	32
+25	Noble Scion	CHA	Bluff or Diplomacy	<p>You were born into a position of power and privilege and are a master of navigating high society.</p>	No	COM	13
+26	Outlaw	DEX	Sleight of Hand	<p>Wanted criminal with back-alley connections to black markets and associates who can fend off legal trouble.</p>	Yes	CRB	33
+27	Paranormal Investigator	INT, WIS, or CHA	Diplomacy, Life Science, Mysticism, Physical Science, or Survival	<p>Chasing after leads and unearthing musty tomes in search of the truth, you dedicate your life to understanding and researching the paranormal and supernatural.</p>	No	SS1	53
+28	Priest	WIS	Mysticism	<p>Dedicated and knowledgeable adherent to a philosophy or religion who commands clout among other followers.</p>	Yes	CRB	34
+29	Prisoner	WIS	Perception	<p>You are an escapee or parolee who uses your hard-won experience to great effect in the wider galaxy.</p>	No	NSP	139
+30	Quartermaster	INT	Profession (quartermaster)	<p>You are always prepared to provision yourself and your allies with what’s needed to succeed.</p>	No	NSP	140
+31	Roboticist	INT	Computers	<p>Machines, like people, come in all different shapes and sizes, and you're determined to learn the ins and outs of them all.</p>	Yes	PWD	27
+32	Scholar	INT	Life Science or Physical Science	<p>Skilled researcher and cutting-edge thinker with a broad base of knowledge and a thirst to expand it.</p>	Yes	CRB	35
+33	Sensate	CON	Perception	<p>You revel in new experiences, and as a result have a wide base of knowledge about the world.</p>	No	COM	14
+34	Solar Disciple	WIS	Perception	<p>The sun serves both as a guiding light and anchor in your life, and the quest to find balance under its majestic rays.</p>	Yes	PWD	17
+35	Space Pirate	DEX	Bluff	<p>The vastness of space is brimming with riches to be had, and you're going to claim your share at the end of a blade or barrel of a pistol.</p>	Yes	PWD	87
+36	Spacefarer	CON	Physical Science	<p>Restless explorer who has strong intuition and has collected deep knowledge about alien biology and topology.</p>	Yes	CRB	36
+37	Starwalker	DEX	Acrobatics	<p>A child of the void by more than name, you move through the vacuum with a degree of skill and precision few others can match.</p>	No	A!04	53
+38	Stormrunner	DEX	Survival	<p>You are undaunted by storms, having thrown yourself into them time and again.</p>	No	NSP	141
+39	Street Rat	DEX	Stealth	<p>Scrappy and streetwise, you are exceptionally adept at blending into the crowd to escape notice.</p>	No	COM	15
+40	Tempered Pilgrim	CHA	Culture	<p>There are worlds to be explored and cultures to be observed, and by mimicking the Kasatha tradition, you seek to learn more about the wider world.</p>	Yes	PWD	77
+41	Tinker	INT	Engineering	<p>Whether you're a garage experimenter or a researcher, the world of fabrication and manufacturing is one you're all too familiar with.</p>	No	DF03	45
+42	Wild Warden	WIS	Survival	<p>Trading concrete jungles for the real thing, you denounce civilization for the harsh wilds of the untamed wilderness.</p>	Yes	PWD	37
+43	Xenoarchaeologist	INT	Engineering	<p>There are droves of ancient knowledge ready to be discovered, and you are willing to do so.</p>	Yes	PWD	137
+44	Xenoseeker	CHA	Life Science	<p>Guru of alien life-forms who finds that meeting them is one of life's most rewarding accomplishments.</p>	Yes	CRB	37
+45	Themeless	ANY	Any	<p>A less-powerful option when nothing else fits. Choose with care.</p>	Yes	CRB	28

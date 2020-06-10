@@ -1,0 +1,12 @@
+id	key_ability_score	spell_level_0	spell_level_1	spell_level_2	spell_level_3	spell_level_4	spell_level_5	spell_level_0
+1	1	—	—	—	—	—	—	—
+2	12	—	1	—	—	—	—	—
+3	14	—	1	1	—	—	—	—
+4	16	—	1	1	1	—	—	—
+5	18	—	1	1	1	1	—	—
+6	20	—	2	1	1	1	1	—
+7	22	—	2	2	1	1	1	1
+8	24	—	2	2	2	1	1	1
+9	26	—	2	2	2	2	1	1
+10	28	—	3	2	2	2	2	1
+11	30	—	3	3	2	2	2	2

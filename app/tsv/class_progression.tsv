@@ -1,0 +1,206 @@
+id	classes_id	level	bab	fortitude_bonus	reflex_bonus	will_bonus	features	solar_armor	solar_flare	solar_shield	solar_weapon
+1	1	1	0	0	2	2	Envoy improvisation, expertise (1d6), skill expertise	null	null	null	null
+2	1	2	1	0	3	3	Envoy improvisation	null	null	null	null
+3	1	3	2	1	3	3	Expertise talent, weapon specialization	null	null	null	null
+4	1	4	3	1	4	4	Envoy improvisation	null	null	null	null
+5	1	5	3	1	4	4	Expertise (1d6+1), skill expertise	null	null	null	null
+6	1	6	4	2	5	5	Envoy improvisation	null	null	null	null
+7	1	7	5	2	5	5	Expertise talent	null	null	null	null
+8	1	8	6	2	6	6	Envoy improvisation	null	null	null	null
+9	1	9	6	3	6	6	Expertise (1d6+2), skill expertise	null	null	null	null
+10	1	10	7	3	7	7	Envoy improvisation	null	null	null	null
+11	1	11	8	3	7	7	Expertise talent	null	null	null	null
+12	1	12	9	4	8	8	Envoy improvisation	null	null	null	null
+13	1	13	9	4	8	8	Expertise (1d8+2), skill expertise	null	null	null	null
+14	1	14	10	4	9	9	Envoy improvisation	null	null	null	null
+15	1	15	11	5	9	9	Expertise talent	null	null	null	null
+16	1	16	12	5	10	10	Envoy improvisation	null	null	null	null
+17	1	17	12	5	10	10	Expertise (1d8+3), skill expertise	null	null	null	null
+18	1	18	13	6	11	11	Envoy improvisation	null	null	null	null
+19	1	19	14	6	11	11	Expertise talent	null	null	null	null
+20	1	20	15	6	12	12	Envoy improvisation, expertise (1d8+4), true expertise	null	null	null	null
+21	2	1	0	2	2	0	Artificial intelligence, bypass +1, custom rig	null	null	null	null
+22	2	2	1	3	3	0	Mechanic trick	null	null	null	null
+23	2	3	2	3	3	1	Overload, weapon specialization	null	null	null	null
+24	2	4	3	4	4	1	Mechanic trick	null	null	null	null
+25	2	5	3	4	4	1	Bypass +2, remote hack	null	null	null	null
+26	2	6	4	5	5	2	Mechanic trick	null	null	null	null
+27	2	7	5	5	5	2	Expert rig, miracle worker 1/day	null	null	null	null
+28	2	8	6	6	6	2	Mechanic trick	null	null	null	null
+29	2	9	6	6	6	3	Bypass +3, override	null	null	null	null
+30	2	10	7	7	7	3	Mechanic trick	null	null	null	null
+31	2	11	8	7	7	3	Coordinated assault +1, miracle worker 2/day	null	null	null	null
+32	2	12	9	8	8	4	Mechanic trick	null	null	null	null
+33	2	13	9	8	8	4	Advanced rig, bypass +4	null	null	null	null
+34	2	14	10	9	9	4	Mechanic trick	null	null	null	null
+35	2	15	11	9	9	5	Miracle worker 3/day	null	null	null	null
+36	2	16	12	10	10	5	Mechanic trick	null	null	null	null
+37	2	17	12	10	10	5	Bypass +5, control net, coordinated assault +2	null	null	null	null
+38	2	18	13	11	11	6	Mechanic trick	null	null	null	null
+39	2	19	14	11	11	6	Ghost in the machine, miracle worker 4/day, superior rig	null	null	null	null
+40	2	20	15	12	12	6	Bypass +6, mechanic trick, tech master	null	null	null	null
+41	3	1	0	0	0	2	Connection, connection power, connection spell, healing touch	null	null	null	null
+42	3	2	1	0	0	3	Channel skill +1, mindlink	null	null	null	null
+43	3	3	2	1	1	3	Connection power, weapon specialization	null	null	null	null
+44	3	4	3	1	1	4	Connection spell	null	null	null	null
+45	3	5	3	1	1	4	Channel skill +2	null	null	null	null
+46	3	6	4	2	2	5	Connection power	null	null	null	null
+47	3	7	5	2	2	5	Connection spell	null	null	null	null
+48	3	8	6	2	2	6	Channel skill +3	null	null	null	null
+49	3	9	6	3	3	6	Connection power	null	null	null	null
+50	3	10	7	3	3	7	Connection spell	null	null	null	null
+51	3	11	8	3	3	7	Channel skill +4, telepathic bond	null	null	null	null
+52	3	12	9	4	4	8	Connection power	null	null	null	null
+53	3	13	9	4	4	8	Connection spell	null	null	null	null
+54	3	14	10	4	4	9	Channel skill +5	null	null	null	null
+55	3	15	11	5	5	9	Connection power	null	null	null	null
+56	3	16	12	5	5	10	Connection spell	null	null	null	null
+57	3	17	12	5	5	10	Channel skill +6	null	null	null	null
+58	3	18	13	6	6	11	Connection power	null	null	null	null
+59	3	19	14	6	6	11	Transcendence	null	null	null	null
+60	3	20	15	6	6	12	Channel skill +7, enlightenment	null	null	null	null
+61	4	1	0	0	2	2	Operative’s edge +1, specialization, trick attack +1d4	null	null	null	null
+62	4	2	1	0	3	3	Evasion, operative exploit	null	null	null	null
+63	4	3	2	1	3	3	Operative’s edge +2, quick movement (+10 ft.), trick attack +1d8, weapon 
+specialization	null	null	null	null
+64	4	4	3	1	4	4	Debilitating trick, operative exploit	null	null	null	null
+65	4	5	3	1	4	4	Specialization exploit, trick attack +3d8	null	null	null	null
+66	4	6	4	2	5	5	Operative exploit	null	null	null	null
+67	4	7	5	2	5	5	Operative’s edge +3, specialization skill mastery, trick attack +4d8, uncanny 
+agility	null	null	null	null
+68	4	8	6	2	6	6	Operative exploit, triple attack	null	null	null	null
+69	4	9	6	3	6	6	Quick movement (+20 ft.), trick attack +5d8	null	null	null	null
+70	4	10	7	3	7	7	Operative exploit	null	null	null	null
+71	4	11	8	3	7	7	Operative’s edge +4, specialization power, trick attack +6d8	null	null	null	null
+72	4	12	9	4	8	8	Operative exploit	null	null	null	null
+73	4	13	9	4	8	8	Quad attack, trick attack +7d8	null	null	null	null
+74	4	14	10	4	9	9	Operative exploit	null	null	null	null
+75	4	15	11	5	9	9	Operative’s edge +5, quick movement (+30 ft.), trick attack +8d8	null	null	null	null
+76	4	16	12	5	10	10	Operative exploit	null	null	null	null
+77	4	17	12	5	10	10	Double debilitation, trick attack +9d8	null	null	null	null
+78	4	18	13	6	11	11	Operative exploit	null	null	null	null
+79	4	19	14	6	11	11	Operative’s edge +6, trick attack +10d8	null	null	null	null
+80	4	20	15	6	12	12	Operative exploit, supreme operative	null	null	null	null
+81	5	1	1	2	0	2	Skill adept, solar manifestation, stellar mode, stellar revelation (black 
+hole, supernova)	+1 AC	1d4	+1/+2	1d6
+82	5	2	2	3	0	3	Stellar revelation	+1 AC	1d4	+1/+2	1d6
+83	5	3	3	3	1	3	Sidereal influence (2 skills), weapon specialization	+1 AC	1d4	+1/+2	1d6
+84	5	4	4	4	1	4	Stellar revelation	+1 AC	1d4	+1/+2	1d6
+85	5	5	5	4	1	4	null	+1 AC, resistance 5	1d4	+1/+3	1d6
+86	5	6	6	5	2	5	Stellar revelation	+1 AC, resistance 5	2d4	+1/+3	2d6
+87	5	7	7	5	2	5	Flashing strikes	+1 AC, resistance 5	2d4	+1/+3	2d6
+88	5	8	8	6	2	6	Stellar revelation	+1 AC, resistance 5	2d4	+1/+3	2d6
+89	5	9	9	6	3	6	Zenith revelations	+1 AC, resistance 5	3d4	+1/+3	3d6
+90	5	10	10	7	3	7	Stellar revelation	+2 AC, resistance 10	3d4	+1/+4	3d6
+91	5	11	11	7	3	7	Sidereal influence (4 skills)	+2 AC, resistance 10	3d4	+1/+4	3d6
+92	5	12	12	8	4	8	Stellar revelation	+2 AC, resistance 10	4d4	+1/+4	4d6
+93	5	13	13	8	4	8	Solarian’s onslaught	+2 AC, resistance 10	5d4	+1/+4	5d6
+94	5	14	14	9	4	9	Stellar revelation	+2 AC, resistance 10	6d4	+1/+4	6d6
+95	5	15	15	9	5	9	null	+2 AC, resistance 15	7d4	+1/+5	7d6
+96	5	16	16	10	5	10	Stellar revelation	+2 AC, resistance 15	8d4	+1/+5	8d6
+97	5	17	17	10	5	10	Zenith revelations	+2 AC, resistance 15	9d4	+1/+5	9d6
+98	5	18	18	11	6	11	Stellar revelation	+2 AC, resistance 15	10d4	+1/+5	10d6
+99	5	19	19	11	6	11	Sidereal influence (6 skills)	+2 AC, resistance 15	11d4	+1/+5	11d6
+100	5	20	20	12	6	12	Stellar paragon, stellar revelation	+2 AC, resistance 20	12d4	+1/+6	12d6
+101	6	1	1	2	0	2	Primary fighting style, primary style technique	null	null	null	null
+102	6	2	2	3	0	3	Combat feat	null	null	null	null
+103	6	3	3	3	1	3	Gear boost, weapon specialization	null	null	null	null
+104	6	4	4	4	1	4	Combat feat	null	null	null	null
+105	6	5	5	4	1	4	Primary style technique	null	null	null	null
+106	6	6	6	5	2	5	Combat feat	null	null	null	null
+107	6	7	7	5	2	5	Gear boost	null	null	null	null
+108	6	8	8	6	2	6	Combat feat	null	null	null	null
+109	6	9	9	6	3	6	Primary style technique, secondary fighting style, secondary style technique	null	null	null	null
+110	6	10	10	7	3	7	Combat feat	null	null	null	null
+111	6	11	11	7	3	7	Gear boost, soldier’s onslaught	null	null	null	null
+112	6	12	12	8	4	8	Combat feat	null	null	null	null
+113	6	13	13	8	4	8	Primary style technique, secondary style technique	null	null	null	null
+114	6	14	14	9	4	9	Combat feat	null	null	null	null
+115	6	15	15	9	5	9	Gear boost	null	null	null	null
+116	6	16	16	10	5	10	Combat feat	null	null	null	null
+117	6	17	17	10	5	10	Primary style technique, secondary style technique	null	null	null	null
+118	6	18	18	11	6	11	Combat feat	null	null	null	null
+119	6	19	19	11	6	11	Gear boost	null	null	null	null
+120	6	20	20	12	6	12	Combat feat, kill shot	null	null	null	null
+121	7	1	0	0	0	2	Spell cache	null	null	null	null
+122	7	2	1	0	0	3	Magic hack	null	null	null	null
+123	7	3	2	1	1	3	Spell Focus, techlore +1, weapon specialization	null	null	null	null
+124	7	4	3	1	1	4	null	null	null	null	null
+125	7	5	3	1	1	4	Magic hack	null	null	null	null
+126	7	6	4	2	2	5	Cache capacitor 1, techlore +2	null	null	null	null
+127	7	7	5	2	2	5	null	null	null	null	null
+128	7	8	6	2	2	6	Magic hack	null	null	null	null
+129	7	9	6	3	3	6	Techlore +3	null	null	null	null
+130	7	10	7	3	3	7	null	null	null	null	null
+131	7	11	8	3	3	7	Magic hack	null	null	null	null
+132	7	12	9	4	4	8	Cache capacitor 2, techlore +4	null	null	null	null
+133	7	13	9	4	4	8	null	null	null	null	null
+134	7	14	10	4	4	9	Magic hack	null	null	null	null
+135	7	15	11	5	5	9	Techlore +5	null	null	null	null
+136	7	16	12	5	5	10	null	null	null	null	null
+137	7	17	12	5	5	10	Magic hack	null	null	null	null
+138	7	18	13	6	6	11	Cache capacitor 3, techlore +6	null	null	null	null
+139	7	19	14	6	6	11	Resolve attunement	null	null	null	null
+140	7	20	15	6	6	12	Fuse spells, magic hack	null	null	null	null
+141	8	1	0	2	0	0	Biohacks, custom microlab, injection expert, primary field of study, scientific 
+method	null	null	null	null
+142	8	2	1	3	0	0	Injection expert +1, theorem	null	null	null	null
+143	8	3	2	3	1	1	Spark of ingenuity 1/day, weapon specialization	null	null	null	null
+144	8	4	3	4	1	1	Theorem	null	null	null	null
+145	8	5	3	4	1	1	Custom microlab (advanced medkit), primary field of study breakthrough	null	null	null	null
+146	8	6	4	5	2	2	Theorem	null	null	null	null
+147	8	7	5	5	2	2	Secondary field of study	null	null	null	null
+148	8	8	6	6	2	2	Theorem	null	null	null	null
+149	8	9	6	6	3	3	Custom microlab (medical lab, 90 feet), injection expert +2, spark of 
+ingenuity 2/day	null	null	null	null
+150	8	10	7	7	3	3	Theorem	null	null	null	null
+151	8	11	8	7	3	3	Secondary field of study breakthrough	null	null	null	null
+152	8	12	9	8	4	4	Theorem	null	null	null	null
+153	8	13	9	8	4	4	Tertiary field of study	null	null	null	null
+154	8	14	10	9	4	4	Theorem	null	null	null	null
+155	8	15	11	9	5	5	Spark of ingenuity 3/day	null	null	null	null
+156	8	16	12	10	5	5	Theorem	null	null	null	null
+157	8	17	12	10	5	5	Custom microlab (120 feet), tertiary field of study breakthrough	null	null	null	null
+158	8	18	13	11	6	6	Injection expert +3, theorem	null	null	null	null
+159	8	19	14	11	6	6	Resolve analysis	null	null	null	null
+160	8	20	15	12	6	6	Superserum, theorem	null	null	null	null
+161	9	1	1	2	2	0	Entropic pool, entropic strike, first vanguard aspect (aspect insight)	null	null	null	null
+162	9	2	2	3	3	0	Mitigate, vanguard discipline	null	null	null	null
+163	9	3	3	3	3	1	Reactive 1/day, weapon specialization	null	null	null	null
+164	9	4	4	4	4	1	First vanguard aspect (aspect embodiment), vanguard discipline	null	null	null	null
+165	9	5	5	4	4	1	Entropic attunement (weapon special property)	null	null	null	null
+166	9	6	6	5	5	2	Vanguard discipline	null	null	null	null
+167	9	7	7	5	5	2	Entropic attunement (critical hit effect), uncanny agility	null	null	null	null
+168	9	8	8	6	6	2	Second vanguard aspect (second aspect insight), vanguard discipline	null	null	null	null
+169	9	9	9	6	6	3	Reactive 2/day	null	null	null	null
+170	9	10	10	7	7	3	Entropic attunement (reach), vanguard discipline	null	null	null	null
+171	9	11	11	7	7	3	Flashing strikes	null	null	null	null
+172	9	12	12	8	8	4	First vanguard aspect (aspect catalyst), vanguard discipline	null	null	null	null
+173	9	13	13	8	8	4	Entropic attunement (blast)	null	null	null	null
+174	9	14	14	9	9	4	Vanguard discipline	null	null	null	null
+175	9	15	15	9	9	5	Reactive 3/day, uncanny speed	null	null	null	null
+176	9	16	16	10	10	5	Entropic attunement (radius), vanguard discipline	null	null	null	null
+177	9	17	17	10	10	5	Second vanguard aspect (second aspect embodiment)	null	null	null	null
+178	9	18	18	11	11	6	First vanguard aspect (aspect finale), vanguard discipline	null	null	null	null
+179	9	19	19	11	11	6	Agent of change, entropic attunement (severe wound)	null	null	null	null
+180	9	20	20	12	12	6	Invulnerability, vanguard discipline	null	null	null	null
+181	10	1	0	0	2	0	Infinite worlds (1st-level spells)	null	null	null	null
+182	10	2	1	0	3	0	Paradigm shift	null	null	null	null
+183	10	3	2	1	3	1	Compound sight +1, weapon specialization	null	null	null	null
+184	10	4	3	1	4	1	Infinite worlds (2nd-level spells)	null	null	null	null
+185	10	5	3	1	4	1	Paradigm shift	null	null	null	null
+186	10	6	4	2	5	2	Alternate outcome 1/day, compound sight +2	null	null	null	null
+187	10	7	5	2	5	2	Infinite worlds (3rd-level spells)	null	null	null	null
+188	10	8	6	2	6	2	Paradigm shift	null	null	null	null
+189	10	9	6	3	6	3	Compound sight +3 (two skills)	null	null	null	null
+190	10	10	7	3	7	3	Infinite worlds (4th-level spells)	null	null	null	null
+191	10	11	8	3	7	3	Paradigm shift	null	null	null	null
+192	10	12	9	4	8	4	Alternate outcome 2/day, compound sight +4	null	null	null	null
+193	10	13	9	4	8	4	Infinite worlds (5th-level spells)	null	null	null	null
+194	10	14	10	4	9	4	Paradigm shift	null	null	null	null
+195	10	15	11	5	9	5	Compound sight +5	null	null	null	null
+196	10	16	12	5	10	5	Infinite worlds (6th-level spells)	null	null	null	null
+197	10	17	12	5	10	5	Paradigm shift	null	null	null	null
+198	10	18	13	6	11	6	Alternate outcome 3/day, compound sight +6	null	null	null	null
+199	10	19	14	6	11	6	Unfold existences	null	null	null	null
+200	10	20	15	6	12	6	Paradigm shift, reality stutter	null	null	null	null

@@ -3,5 +3,5 @@ module.exports = {
     isProduction: false, // Change this to true when building image! (This process is due for improvements)
     dataType: 'tsv',
     port: 80,
-    logLevel: 'verbose',
+    logLevel: 'error',
 }

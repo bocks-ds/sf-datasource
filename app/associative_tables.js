@@ -1,4 +1,9 @@
 module.exports = {
+    ability: {
+        model_name: 'Ability',
+        supports: 'skills',
+        relationshipType: 'ManyToOne',
+    },
     classes: {
         model_name: 'Class',
         supports: 'spellcaster_progression',
@@ -24,7 +29,7 @@ module.exports = {
         supports: 'companions',
         relationshipType: 'OneToMany',
     },
-    effect_ranges: {
+    effect_range: {
         model_name: 'EffectRange',
         supports: 'spells',
         relationshipType: 'ManyToOne',

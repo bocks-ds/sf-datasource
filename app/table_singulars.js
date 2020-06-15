@@ -1,5 +1,5 @@
 module.exports = {
-    "abilities": "Ability",
+    "ability": "Ability",
     "ammunition": "Ammunition",
     "armor_upgrades": "ArmorUpgrade",
     "armor": "Armor",
@@ -13,7 +13,7 @@ module.exports = {
     "companions": "Companion",
     "descriptors": "Descriptor",
     "drugs": "Drug",
-    "effect_ranges": "EffectRange",
+    "effect_range": "EffectRange",
     "feats": "Feat",
     "goods_and_services": "GoodOrService",
     "items": "Item",
